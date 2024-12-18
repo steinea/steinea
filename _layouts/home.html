@@ -25,13 +25,7 @@
       </div>
 
         <nav id="navbar">
-          <ul>
-            <li><a href="/">home</a></li>
-            <li><a href="/slashes">///</a></li>
-            <li><a href="/collections">collections</a></li>
-            <li><a href="/email">@</a></li>
-            <li><a href="/rss">rss</a></li>
-          </ul>
+          {% include navbar.html %}
         </nav>
       </div>
 
@@ -54,7 +48,7 @@
 
           <h2>Changelog</h2>
             <div id="changelog">
-              <p><em><a href="/changelog">Discursive</a></em></p>
+              <p><em><a href="/changelog/">Discursive</a></em></p>
               <p>{% include changelog.html %}</p>
             </div>
 
