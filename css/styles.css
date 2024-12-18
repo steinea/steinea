@@ -45,7 +45,7 @@ body {
 }
 
 #header pre {
-  font-size: 1vw;
+  font-size: max(0.2rem, 1vmin);
 }
 
 #navbar {
