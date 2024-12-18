@@ -89,6 +89,10 @@ aside {
   margin-right: 10px;
 }
 
+#now ul {
+  padding-left: 15px;
+}
+
 main {
   order: 2;
   background-color: #ffffff;
