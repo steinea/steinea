@@ -1,0 +1,18 @@
+---
+layout: default
+title: Now
+permalink: /now/
+---
+
+{% include now.html %}
+
+<br>
+
+<h4>Previously</h4>
+
+<p>
+{% for post in site.categories.now offset:1 %}
+		{{ post.date | date: "%Y-%m-%d" }} <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+		<br>
+{% endfor %}
+</p>
