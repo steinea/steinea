@@ -167,4 +167,8 @@ abbr {
   #navbar ul {
     flex-wrap: wrap;
   }
+
+  #header {
+    height: 120px;
+  }
 }
