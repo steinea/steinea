@@ -44,10 +44,6 @@ body {
   text-align: center;
 }
 
-#header pre {
-  font-size: max(0.2rem, 1vmin);
-}
-
 #navbar {
   height: 40px;
   background-color: #ffffff;

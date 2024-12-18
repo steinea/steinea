@@ -1,1 +1,4 @@
-Placeholder
+<ul style="padding-left: 15px;">
+  <li><a href="https://github.com/steinea/steinea/commit/{{ site.env.COMMIT_REF }}">{{ site.env.COMMIT_REF | truncate: 6, ""}}</a></li>
+  <li><a href="https://github.com/steinea/steinea/commit/{{ site.env.CACHED_COMMIT_REF }}">{{ site.env.CACHED_COMMIT_REF | truncate: 6, ""}}</a></li>
+</ul>
