@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/styles.css">
+    <link rel="shortcut icon" type="image/png" href="/images/favicon.png">
+    <link rel="alternate" type="application/rss+xml" href="{{ site.baseurl }}/feed.xml" title="Eric Stein RSS">
+  </head>
+
+  <body>
+
+    <div id="container">
+      <div id="topbar">
+        <marquee>
+          {% include marquee.html %}
+        </marquee>
+      </div>
+
+    <div id="headerArea">
+
+      <div id="header">
+        {% include header.html %}
+      </div>
+
+        <nav id="navbar">
+          <ul>
+            <li><a href="/">home</a></li>
+            <li><a href="/about">about</a></li>
+            <li><a href="/collections">collections</a></li>
+            <li><a href="/email">email</a></li>
+            <li><a href="/rss">rss</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div id="flex">
+        <aside id="leftSidebar">
+
+          <h2>Bio</h2>
+            <div id="bio">
+              <p>{% include bio.html %}</p>
+            </div>
+
+            <br>
+
+          <h2>Card</h2>
+            <div id="h-card">
+              <p>{% include h-card.html %}</p>
+            </div>
+
+            <br>
+
+          <h2>Changelog</h2>
+            <div id="changelog">
+              <p>{% include changelog.html %}</p>
+            </div>
+
+            <br>
+
+          <h2>Now</h2>
+            <div id="now">
+              <p>{% include now.html %}</p>
+            </div>
+
+            <br>
+
+          <h2>Verify</h2>
+            <div id="verify">
+              <p>{% include verify.html %}</p>
+            </div>
+
+            <br>
+
+        </aside>
+
+        <main>
+          <div id="pageContent">
+            {{ content }}
+          </div>
+        </main>
+
+      </div>
+
+      <footer id="footer">© by Eric Stein, 2013–2024</footer>
+
+    </div>
+  </body>
+</html>

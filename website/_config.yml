@@ -1,0 +1,41 @@
+# Site
+title: Eric Stein
+name: Eric Stein
+email: steinea@protonmail.com
+description: >-
+  Eric Stein is a development director, game development instructor, tabletop game designer, and occasional poet. This site collects his writing, research, and design work.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: https://www.steinea.ca
+twitter_username: steinea
+github_username: steinea
+
+# Collections
+collections_dir: collections
+collections:
+  posts:
+    permalink: /:year/:month/:day/:title/
+
+# Build
+plugins:
+  - jekyll-feed
+  - jekyll_custom_permalink
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
