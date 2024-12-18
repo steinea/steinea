@@ -1,0 +1,12 @@
+---
+layout: default
+title: Changelog
+permalink: /changelog/
+---
+
+<p>
+{% for post in site.categories.updates %}
+		{{ post.date | date: "%Y-%m-%d" }} <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+		<br>
+{% endfor %}
+</p>
