@@ -3,9 +3,15 @@ layout: default
 ---
 
 <!-- Layout for posts in the changelog -->
-<a class="u-url" href="{{ page.url }}"></a>
 
-<p class="meta"><time class="dt-published" datetime="{{ page.date }}"><strong>{{ page.date | date: "%Y-%m-%d" }}</strong></time></p>
+  <!-- h-entry specific markup -->
+  <a class="u-url" href="{{ page.url }}"></a>
+  <a class="p-category" title="{{ page.category }}"></a>
+  <a rel="author" class="p-author h-card" href="https://www.steinea.ca"></a>
+
+  <p class="meta">
+    <time class="dt-published" datetime="{{ page.date }}"><strong>{{ page.date | date: "%Y-%m-%d" }}</strong></time>
+  </p>
 
 <article class="h-entry">
   <div class="e-content"><div class="post">
@@ -13,9 +19,11 @@ layout: default
   </div></div>
 </article>
 
+
 <br>
 
-<h4>Previous Update <span style="float:right;">Next Update</span></h4>
+
+<h4>Previous Changelog <span style="float:right;">Next Changelog</span></h4>
 
 <div class="postNavigation">
 	{% if page.next_in_category != nil %}
