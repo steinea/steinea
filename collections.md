@@ -4,24 +4,6 @@ title: Collections
 permalink: /collections/
 ---
 
-## Activity
-
-[Building](/building/)
-<br>[Playing](/playing/)
-<br>[Posting](/posting/)
-<br>[Reading](/reading/)
-<br>Traveling
-<br>[Watching](/watching/)
-{% comment %}
-<br>Dreaming
-<br>Drinking
-<br>Exercising
-<br>Listening
-<br>Sleeping
-{% endcomment %}
-
-<br>
-
 ## Blog
 
 [Intermezzo](/intermezzo/)
@@ -64,3 +46,23 @@ permalink: /collections/
 <br>[Lego](/lego/)
 <br>[Television](/television/)
 <br>[Wiki](/wiki/)
+
+<br>
+
+## Activity
+
+[Building](/building/)
+<br>[Playing](/playing/)
+<br>[Posting](/posting/)
+<br>[Reading](/reading/)
+<br>Traveling
+<br>[Watching](/watching/)
+{% comment %}
+<br>Dreaming
+<br>Drinking
+<br>Exercising
+<br>Listening
+<br>Sleeping
+{% endcomment %}
+
+<br>
