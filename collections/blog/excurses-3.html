@@ -1,0 +1,12 @@
+---
+layout: default
+title: Excurses, 3
+permalink: /excurses-3/
+---
+
+{% for post in site.categories.blog %}
+	{% if post.subcategory contains "excurses-3" %}
+		{{ post.date | date: "%Y-%m-%d" }} <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+		<br>
+	{% endif %}
+{% endfor %}

@@ -1,0 +1,12 @@
+---
+layout: default
+title: Juvenilia, 2
+permalink: /juvenilia-2/
+---
+
+{% for post in site.categories.blog %}
+	{% if post.subcategory contains "juvenilia-2" %}
+		{{ post.date | date: "%Y-%m-%d" }} <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+		<br>
+	{% endif %}
+{% endfor %}

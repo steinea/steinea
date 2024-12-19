@@ -1,0 +1,12 @@
+---
+layout: default
+title: Field Notes, 2
+permalink: /field-notes-2/
+---
+
+{% for post in site.categories.blog %}
+	{% if post.subcategory contains "field-notes-2" %}
+		{{ post.date | date: "%Y-%m-%d" }} <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+		<br>
+	{% endif %}
+{% endfor %}

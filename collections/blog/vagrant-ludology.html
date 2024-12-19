@@ -1,0 +1,12 @@
+---
+layout: default
+title: Vagrant Ludology
+permalink: /vagrant-ludology/
+---
+
+{% for post in site.categories.blog %}
+	{% if post.subcategory contains "vagrant-ludology" %}
+		{{ post.date | date: "%Y-%m-%d" }} <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+		<br>
+	{% endif %}
+{% endfor %}

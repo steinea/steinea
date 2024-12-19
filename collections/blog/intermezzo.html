@@ -1,0 +1,17 @@
+---
+layout: default
+title: Intermezzo
+permalink: /intermezzo/
+---
+
+<em>Forthcoming</em> In Search of a Distant Light
+<br><em>Forthcoming</em> <em>Starfield</em>’s Möbius Eyeball
+<br><em>Forthcoming</em> To Become Capable of Response
+<br><em>Forthcoming</em> Dramatic Operations<br>
+
+{% for post in site.categories.blog %}
+	{% if post.subcategory contains "intermezzo" %}
+		{{ post.date | date: "%Y-%m-%d" }} <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+		<br>
+	{% endif %}
+{% endfor %}
