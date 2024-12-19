@@ -4,8 +4,22 @@ title: Changelog
 permalink: /changelog/
 ---
 
+{% for post in site.categories.changelog limit:1 %}
+
+	<p class="meta">
+    <time class="dt-published" datetime="{{ post.date }}"><strong>{{ post.date | date: "%Y-%m-%d" }}</strong></time>
+  </p>
+
+  {{ post.content }}
+
+{% endfor %}
+
+<br>
+
+<h4>Previously</h4>
+
 <p>
-{% for post in site.categories.updates %}
+{% for post in site.categories.changelog offset:1 %}
 		{{ post.date | date: "%Y-%m-%d" }} <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
 		<br>
 {% endfor %}
