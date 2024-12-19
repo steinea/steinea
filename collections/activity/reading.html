@@ -1,0 +1,31 @@
+---
+layout: default
+title: Reading
+permalink: /reading/
+---
+
+<p><em>Mirrors: <a href="https://bookwyrm.social/user/steinea/books" target="_blank">Bookwyrm</a>, <a href="https://www.goodreads.com/review/list/63502745?shelf=read" target="_blank">Goodreads</a></em></p>
+
+<br>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Author</th>
+		<th>Started</th>
+		<th>Finished</th>
+		<th>Rating</th>
+  </tr>
+  {% assign sorted = site.books | sort: 'date' | reverse %}
+  {% for item in sorted %}
+	{% if item.rating != "exclude" %}
+  <tr>
+		<td><a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a></td>
+    <td>{{ item.author }}</td>
+		<td>{{ item.started }}</td>
+    <td>{{ item.finished }}</td>
+		<td>{{ item.rating }}</td>
+	</tr>
+	{% endif %}
+  {% endfor %}
+</table>

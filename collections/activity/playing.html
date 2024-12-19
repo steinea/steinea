@@ -1,0 +1,147 @@
+---
+layout: default
+title: Playing
+permalink: /playing/
+---
+
+<p><em>Mirrors: <a href="https://www.exophase.com/user/steinea/" target="_blank">Exophase</a>, <a href="https://howlongtobeat.com/user/steinea" target="_blank">HowLongToBeat</a>, <a href="https://www.backloggd.com/u/steinea/" target="_blank">Backloggd</a></em></p>
+
+<br>
+
+<p><table>
+  <tr>
+    <th>In Progress</th>
+    <th>Platform</th>
+		<th>Hours</th>
+		<th>Trophies</th>
+    <th>Percent</th>
+		<th>Date</th>
+  </tr>
+  {% assign sorted = site.games | sort: 'date' | reverse %}
+  {% for item in sorted %}
+  {% if item.progress contains "now" %}
+  <tr>
+		<td><a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a></td>
+		<td>{{ item.platform }}</td>
+    <td>{{ item.durationHours }}</td>
+		<td>{{ item.trophies }}</td>
+    <td>{{ item.percent }}</td>
+    <td>{{ item.date | date: '%Y-%m-%d' }}</td>
+	</tr>
+  {% endif %}
+  {% endfor %}
+</table></p>
+
+<br>
+
+<p><table>
+  <tr>
+    <th>Most Played</th>
+    <th>Platform</th>
+		<th>Hours</th>
+		<th>Trophies</th>
+    <th>Percent</th>
+		<th>Date</th>
+  </tr>
+  {% assign sorted = site.games | sort: 'durationHours' | reverse %}
+  {% for item in sorted limit:10 %}
+  <tr>
+		<td><a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a></td>
+		<td>{{ item.platform }}</td>
+    <td>{{ item.durationHours }}</td>
+		<td>{{ item.trophies }}</td>
+    <td>{{ item.percent }}</td>
+    <td>{{ item.date | date: '%Y-%m-%d' }}</td>
+	</tr>
+  {% endfor %}
+</table></p>
+
+<br>
+
+<p><table>
+  <tr>
+    <th>Complete</th>
+    <th>Platform</th>
+		<th>Hours</th>
+		<th>Trophies</th>
+		<th>Date</th>
+  </tr>
+  {% assign sorted = site.games | sort: 'date' | reverse %}
+  {% for item in sorted %}
+  {% if item.progress contains "complete" %}
+  <tr>
+		<td><a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a></td>
+		<td>{{ item.platform }}</td>
+    <td>{{ item.durationHours }}</td>
+		<td>{{ item.trophies }}</td>
+    <td>{{ item.date | date: '%Y-%m-%d' }}</td>
+	</tr>
+  {% endif %}
+  {% endfor %}
+</table></p>
+
+<br>
+
+<p><table>
+  <tr>
+    <th>Incomplete</th>
+    <th>Platform</th>
+		<th>Hours</th>
+		<th>Trophies</th>
+    <th>Percent</th>
+		<th>Date</th>
+  </tr>
+  {% assign sorted = site.games | sort: 'date' | reverse %}
+  {% for item in sorted %}
+  {% if item.progress contains "stopped" %}
+  <tr>
+		<td><a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a></td>
+		<td>{{ item.platform }}</td>
+    <td>{{ item.durationHours }}</td>
+		<td>{{ item.trophies }}</td>
+    <td>{{ item.percent }}</td>
+    <td>{{ item.date | date: '%Y-%m-%d' }}</td>
+	</tr>
+  {% endif %}
+  {% endfor %}
+</table></p>
+
+<br>
+
+<p><table>
+  <tr>
+    <th>Backlog</th>
+    <th>Platform</th>
+		<th>Hours</th>
+  </tr>
+  {% assign sorted = site.games | sort: 'howlongtobeat' %}
+  {% for item in sorted %}
+  {% if item.progress contains "backlog" %}
+  <tr>
+		<td><a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a></td>
+		<td>{{ item.platform }}</td>
+    <td>{{ item.howlongtobeat }}</td>
+	</tr>
+  {% endif %}
+  {% endfor %}
+</table></p>
+
+<br>
+
+<p><table>
+  <tr>
+    <th>Wishlist</th>
+    <th>Platform</th>
+		<th>Hours</th>
+  </tr>
+  {% assign sorted = site.games | sort: 'howlongtobeat' %}
+  {% for item in sorted %}
+  {% if item.progress contains "wishlist" %}
+  <tr>
+		<td><a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a></td>
+		<td>{{ item.platform }}</td>
+    <td>{{ item.howlongtobeat }}</td>
+	</tr>
+  {% endif %}
+  {% endfor %}
+</table></p>
