@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<!-- Layout for pages in the Lego collection -->
+
+<h2>{{ page.series }}</h2>
+
+  <a class="u-url" href="{{ page.url }}"></a>
+
+{% if page.subcategory contains "built" %}
+  <p class="meta"><em>Set <a href="{{ page.link }}" target="_blank">{{ page.item }}</a>, built on {{ page.date | date: "%Y-%m-%d" }}, {{ page.pieces }} pieces</em></p>
+
+{% elsif page.subcategory contains "backlog" %}
+  <p class="meta"><em>Set <a href="{{ page.link }}" target="_blank">{{ page.item }}</a>, {{ page.pieces }} pieces</em></p>
+
+{% elsif page.subcategory contains "wishlist" %}
+  <p class="meta"><em>Set <a href="{{ page.link }}" target="_blank">{{ page.item }}</a>, {{ page.pieces }} pieces, ${{ page.cost }}</em></p>
+
+{% else %}
+  <p class="meta"><em>{{ page.date | date: "%Y-%m-%d" }}</em></p>
+
+{% endif %}
+
+<br>
+
+<article class="h-entry">
+  <div class="e-content"><div class="post">
+    {{ content }}
+  </div></div>
+</article>

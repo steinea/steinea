@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<!-- Layout for pages in the Books collection -->
+
+<h2>{{ page.author }}</h2>
+
+  <a class="u-url" href="{{ page.url }}"></a>
+
+{% if page.subcategory contains "backlog" %}
+  <p class="meta"><em>{{ page.published }}</em></p>
+
+{% elsif page.subcategory contains "wishlist" %}
+  <p class="meta"><em>{{ page.price }}</em></p>
+
+{% else %}
+  <p class="meta"><strong>{{ page.date | date: "%Y-%m-%d" }}</strong></p>
+
+{% endif %}
+
+<br>
+
+<article class="h-entry">
+  <div class="e-content"><div class="post">
+    {{ content }}
+  </div></div>
+</article>

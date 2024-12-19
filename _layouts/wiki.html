@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<!-- Layout for pages in the Wiki collection -->
+
+<h3><a href="{{ page.link }}" target="_blank">{{ page.publication }}</a></h3>
+
+  <a class="u-url" href="{{ page.url }}"></a>
+
+  <p class="meta"><em>Date Saved: {{ page.date | date: "%Y-%m-%d" }}</em></p>
+
+<br>
+
+<article class="h-entry">
+  <div class="e-content"><div class="post">
+    {{ content }}
+  </div></div>
+</article>
+
+<br>

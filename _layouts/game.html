@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<!-- Layout for pages in the Books collection -->
+
+<h2>{{ page.developer }}</h2>
+<h3>{{ page.publisher }}</h3>
+
+  <a class="u-url" href="{{ page.url }}"></a>
+
+{% if page.progress contains "complete" %}
+  <p class="meta"><em>Completed on {{ page.date | date: "%Y-%m-%d" }}, {{ page.durationHours }} hours played, <a href="{{ page.link }}">{{ page.trophies }}</a> trophies collected</em></p>
+
+{% elsif page.progress contains "now" %}
+  <p class="meta"><em>In progress, {{ page.durationHours }} hours played, <a href="{{ page.link }}">{{ page.trophies }}</a> trophies collected</em></p>
+
+{% elsif page.progress contains "stopped" %}
+  <p class="meta"><em>Left incomplete on {{ page.date | date: "%Y-%m-%d" }}, {{ page.durationHours }} hours played, <a href="{{ page.link }}">{{ page.trophies }}</a> trophies collected</em></p>
+
+{% else %}
+  <p class="meta"><em>{{ page.date | date: "%Y-%m-%d" }}</em></p>
+
+{% endif %}
+
+<br>
+
+<article class="h-entry">
+  <div class="e-content"><div class="post">
+    {{ content }}
+  </div></div>
+</article>
