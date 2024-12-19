@@ -1,0 +1,16 @@
+---
+layout: default
+title: Annotations
+permalink: /annotations/
+---
+
+<em>Forthcoming</em> 2001: A Space Odyssey
+<br><em>Forthcoming</em> The Grasshopper<br>
+
+{% assign sorted = site.books | sort: 'date' | reverse %}
+	{% for item in sorted %}
+		{% if item.subcategory contains "read" %}
+			{{ item.date | date: "%Y-%m-%d" }} <a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a>
+			<br>
+		{% endif %}
+	{% endfor %}

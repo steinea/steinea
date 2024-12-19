@@ -1,0 +1,10 @@
+---
+layout: default
+title: Studying
+permalink: /study-notes/
+---
+
+{% for post in site.categories.study %}
+		{{ post.date | date: "%Y-%m-%d" }} <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+		<br>
+{% endfor %}

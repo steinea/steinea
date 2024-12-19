@@ -1,0 +1,12 @@
+---
+layout: default
+title: Bibliographies
+permalink: /bibliographies/
+---
+
+<p><em><u>Stream</u></em> <em><a href="/bibliographies/group/">Group</a></em></p>
+
+{% for post in site.categories.bibliography %}
+		{{ post.date | date: "%Y-%m-%d" }} <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+		<br>
+{% endfor %}
