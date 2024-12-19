@@ -1,6 +1,6 @@
 ---
-layout: update
-category: updates
+layout: changelog
+category: changelog
 title: Updates and Fixes
 date: 2023-09-23
 ---

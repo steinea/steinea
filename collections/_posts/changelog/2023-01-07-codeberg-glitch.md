@@ -1,6 +1,6 @@
 ---
-layout: update
-category: updates
+layout: changelog
+category: changelog
 title: Codeberg Glitch
 date: 2023-01-07
 ---

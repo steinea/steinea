@@ -1,6 +1,6 @@
 ---
-layout: update
-category: updates
+layout: changelog
+category: changelog
 title: Power Failure
 date: 2022-10-27
 ---

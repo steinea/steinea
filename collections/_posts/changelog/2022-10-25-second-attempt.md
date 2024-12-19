@@ -1,6 +1,6 @@
 ---
-layout: update
-category: updates
+layout: changelog
+category: changelog
 title: Second Attempt
 date: 2022-10-25
 ---

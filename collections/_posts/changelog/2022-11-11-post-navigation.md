@@ -1,6 +1,6 @@
 ---
-layout: update
-category: updates
+layout: changelog
+category: changelog
 title: Post Navigation
 date: 2022-11-11
 ---

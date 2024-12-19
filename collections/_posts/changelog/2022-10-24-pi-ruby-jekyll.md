@@ -1,6 +1,6 @@
 ---
-layout: update
-category: updates
+layout: changelog
+category: changelog
 title: Pi, Ruby, Jekyll
 date: 2022-10-24
 ---

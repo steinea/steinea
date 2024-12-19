@@ -1,6 +1,6 @@
 ---
-layout: update
-category: updates
+layout: changelog
+category: changelog
 title: Oh Hey, We're Back
 date: 2024-12-17
 ---

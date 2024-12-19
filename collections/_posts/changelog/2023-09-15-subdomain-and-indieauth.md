@@ -1,6 +1,6 @@
 ---
-layout: update
-category: updates
+layout: changelog
+category: changelog
 title: Subdomain and IndieWeb
 date: 2023-09-15
 ---
