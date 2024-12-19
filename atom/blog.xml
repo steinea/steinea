@@ -1,0 +1,27 @@
+---
+layout: null
+---
+
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+	<title>Infrequently Asked Questions</title>
+	<link href="https://steinea.ca/atom/blog.xml/" rel="self"/>
+	<link href="https://steinea.ca/collections/"/>
+	<updated>{{ site.time | date_to_xmlschema }}</updated>
+	<id>https://steinea.ca/collections/</id>
+	<author>
+		<name>Eric Stein</name>
+	</author>
+
+	{% for post in site.categories.blog %}
+		<entry>
+			<title>{{ post.title }}</title>
+			<link href="https://steinea.ca{{ post.url }}"/>
+			<updated>{{ post.date | date_to_xmlschema }}</updated>
+			<id>https://steinea.ca{{ post.id }}</id>
+			<content type="html">{{ post.content | xml_escape }}</content>
+		</entry>
+	{% endfor %}
+
+</feed>

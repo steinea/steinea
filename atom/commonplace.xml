@@ -1,0 +1,27 @@
+---
+layout: null
+---
+
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+	<title>Eric Stein's Commonplace Book</title>
+	<link href="https://steinea.ca/atom/commonplace.xml/" rel="self"/>
+	<link href="https://steinea.ca/commonplace/"/>
+	<updated>{{ site.time | date_to_xmlschema }}</updated>
+	<id>https://steinea.ca/commonplace/</id>
+	<author>
+		<name>Eric Stein</name>
+	</author>
+
+	{% for post in site.categories.commonplace %}
+		<entry>
+			<title>{{ post.title }}</title>
+			<link href="https://steinea.ca{{ post.url }}"/>
+			<updated>{{ post.date | date_to_xmlschema }}</updated>
+			<id>https://steinea.ca{{ post.id }}</id>
+			<content type="html">{{ post.content | xml_escape }}</content>
+		</entry>
+	{% endfor %}
+
+</feed>
