@@ -14,6 +14,33 @@ collections_dir: collections
 collections:
   posts:
     permalink: /:year/:month/:day/:title/
+  books:
+    output: true
+    permalink: /:title/
+  films:
+    output: true
+    permalink: /:title/
+  games:
+    output: true
+    permalink: /:title/
+  lego:
+    output: true
+    permalink: /:title/
+  relations:
+    output: true
+    permalink: /:title/
+  research:
+    output: true
+    permalink: /:title/
+  surnames:
+    output: true
+    permalink: /:title/
+  television:
+    output: true
+    permalink: /:title/
+  wiki:
+    output: true
+    permalink: /:title/
 
 # Build
 plugins:
