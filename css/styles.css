@@ -151,6 +151,14 @@ pre {
     word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
 
+table {
+  width: 100%
+}
+
+th {
+  text-align: left;
+}
+
 .box {
   background-color: #ffffff;
   border: 1px dotted #000000;
