@@ -93,6 +93,10 @@ aside {
   padding-left: 15px;
 }
 
+#verify ul {
+  padding-left: 15px;
+}
+
 main {
   order: 2;
   background-color: #ffffff;
@@ -145,7 +149,6 @@ pre {
     white-space: -pre-wrap;      /* Opera 4-6 */
     white-space: -o-pre-wrap;    /* Opera 7 */
     word-wrap: break-word;       /* Internet Explorer 5.5+ */
-    background-color: #f8f8f8;
 }
 
 .box {
