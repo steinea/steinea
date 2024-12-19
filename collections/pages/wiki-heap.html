@@ -1,0 +1,12 @@
+---
+layout: default
+title: Wiki
+permalink: /wiki/
+---
+
+<p><em><u>Heap</u></em> <em><a href="/wiki/stream/">Stream</a></em> <em><a href="/wiki/group/">Group</a></em></p>
+
+{% assign sorted = site.wiki | sort: 'title' %}
+{% for item in sorted %}
+  <a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a> •
+{% endfor %}

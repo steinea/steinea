@@ -1,0 +1,15 @@
+---
+layout: default
+title: Lego
+permalink: /lego/backlog/
+---
+
+<p><em><em><a href="/lego/">Built</a></em> <u>Backlog</u></em> <em><a href="/lego/wishlist/">Wishlist</a></em></p></p>
+
+{% assign sorted = site.lego | sort: 'pieces' %}
+	{% for item in sorted %}
+			{% if item.subcategory contains "backlog" %}
+				{{ item.pieces }} <a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a>
+				<br>
+			{% endif %}
+	{% endfor %}

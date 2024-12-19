@@ -1,0 +1,15 @@
+---
+layout: default
+title: Games
+permalink: /games/backlog/
+---
+
+<p><em><a href="/games/">Played</a></em> <em><u>Backlog</u></em> <em><a href="/games/wishlist/">Wishlist</a></em></p>
+
+{% assign sorted = site.games | sort: 'developer' %}
+	{% for item in sorted %}
+			{% if item.progress contains "backlog" %}
+				{{ item.developer }}, <em><a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a></em>, {{ item.releaseDate | date: '%Y' }}
+				<br>
+			{% endif %}
+	{% endfor %}

@@ -1,0 +1,10 @@
+---
+layout: default
+title: Television
+permalink: /television/
+---
+
+{% for television in site.television %}
+		<em>{{ television.series }}</em>, S{{ television.season }}E{{ television.episode }}, “<a href="{{ television.url }}" title="{{ television.title }}">{{ television.title }}</a>,” {{ television.aired }}
+		<br>
+{% endfor %}

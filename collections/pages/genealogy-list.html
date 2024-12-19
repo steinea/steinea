@@ -1,0 +1,11 @@
+---
+layout: default
+title: The Big List
+permalink: /genealogy/list/
+---
+
+{% assign sorted = site.relations | sort: 'sosa' %}
+  {% for item in sorted %}
+    {{ item.sosa }} <a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a>
+    <br>
+  {% endfor %}

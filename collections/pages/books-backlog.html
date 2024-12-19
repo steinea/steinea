@@ -1,0 +1,15 @@
+---
+layout: default
+title: Books
+permalink: /books/backlog/
+---
+
+<p><em><em><a href="/books/">Read</a></em> <u>Backlog</u></em> <em><a href="/books/wishlist/">Wishlist</a></em></p></p>
+
+{% assign sorted = site.books | sort: 'author' %}
+	{% for item in sorted %}
+			{% if item.subcategory contains "backlog" %}
+				{{ item.author }}, <em><a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a></em>, {{ item.published }}
+				<br>
+			{% endif %}
+	{% endfor %}
