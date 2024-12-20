@@ -1,9 +1,23 @@
 /* Thanks to Nicky Flowers https://nickyflowers.com/ without whom I would have never figured out this layout. */
 
+/* Fonts */
+@font-face {
+  font-family: 'Latin Modern';
+  font-style: normal;
+  src: url('/fonts/lmroman12-regular.otf');
+}
+
+@font-face {
+  font-family: 'Latin Modern';
+  font-style: italic;
+  src: url('/fonts/lmroman12-italic.otf');
+}
+
+
 /* Body Style */
 body {
-  font-family: 'Times', serif;
-  font-weight: 300;
+  font-family: 'Latin Modern', serif;
+  font-style: normal;
   margin: 0;
   background-color: #ffffff;
   color: #000000;
@@ -124,12 +138,12 @@ h1,h2,h3 {
   color: #000000;
 }
 
-h1 {
-  font-weight: 900;
+h1, h2 {
+  font-weight: normal;
 }
 
 strong {
-  font-weight: 600;
+  font-weight: bold;
   color: #000000;
 }
 
