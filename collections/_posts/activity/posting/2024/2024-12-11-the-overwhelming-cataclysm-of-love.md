@@ -2,7 +2,7 @@
 layout: social
 category: social
 title: The Overwhelming Cataclysm of Love
-date: 2025-12-12
+date: 2024-12-11
 bluesky: https://bsky.app/profile/steinea.bsky.social/post/3ld276ltzos26
 mastodon:
 threads:

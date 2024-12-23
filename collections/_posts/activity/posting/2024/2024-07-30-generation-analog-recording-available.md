@@ -2,7 +2,7 @@
 layout: social
 category: social
 title: Generation Analog Recording Available
-date: 2025-12-12
+date: 2024-07-30
 bluesky:
 mastodon:
 threads:
