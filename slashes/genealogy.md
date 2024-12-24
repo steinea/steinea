@@ -1,10 +1,25 @@
 ---
 layout: default
-title: Ahnentafel
-permalink: /genealogy/ahnentafel/
+title: Genealogy
+permalink: /genealogy/
 ---
 
-An ahnentafel or [ancestor table](/ancestor-table/) is a simple tree organized by generation, using [Sosa](/sosa/) numbering to index each individual’s relationship to the root. An ahnentafel is an ascending [genealogical numbering system](/genealogical-numbering-system), meaning that it starts in the present, working its way up through the table of ancestors as far as records will reach. An ahnentafel is accommodating of gaps, since the placement in the tree of each direct ancestor can be mathematically calculated, regardless of the availability of knowledge about them. This structure also has the benefit of assigning a unique index to each direct ancestor. However, an ahnentafel is not built to accommodate indirect relations, for which the [d’Aboville](/genealogy/daboville/) system is better suited.
+*This page is WIP. It was recently migrated from Obsidian, but still has many Obsidian wiki-links, non-functional mermaid, and other structural issues that will take some time to clean up.*
+
+* [Ahnentafel](/genealogy#ahnentafel)
+* [D'Aboville](/genealogy#daboville)
+* [Register](/genealogy#register)
+* [Research](/genealogy#research)
+
+{% comment %}
+<br>[The Big List](/genealogy/list/)
+{% endcomment %}
+
+<br>
+
+## Ahnentafel
+
+An ahnentafel or [ancestor table](/ancestor-table/) is a simple tree organized by generation, using [Sosa](/sosa/) numbering to index each individual’s relationship to the root. An ahnentafel is an ascending [genealogical numbering system](/genealogical-numbering-system), meaning that it starts in the present, working its way up through the table of ancestors as far as records will reach. An ahnentafel is accommodating of gaps, since the placement in the tree of each direct ancestor can be mathematically calculated, regardless of the availability of knowledge about them. This structure also has the benefit of assigning a unique index to each direct ancestor. However, an ahnentafel is not built to accommodate indirect relations, for which the [d’Aboville](/genealogy#daboville) system is better suited.
 
 The ahnentafel recorded on this site reaches back as far as the sixteenth generation to some of the root’s thirteenth great-grandparents, who lived in the late 1300s to early 1400s. However, little is known of these ancestors, with the majority of family documentation beginning with the seventh generation, the root’s fourth great-grandparents, who lived in the early-to-mid 1800s.
 
@@ -276,3 +291,88 @@ Grandparents *(4 ancestors)*
 
 * (47104) Jean Amonin Le Vieux Camoin
 * (47105) Jeanne Cortier
+
+<br>
+
+## D'Aboville
+
+The d’Aboville system is a descending [genealogical numbering system](/genealogical-numbering-system/), as opposed to the ascending Sosa system, that traces family lines from a fixed ancestral point. Though less flexible than Sosa numbering, the d’Aboville system allows for the recording of all ancestors in a family, not just those in a direct line to a contemporary root. This is useful for going wide in a family’s history, whereas an ahnentafel is especially fit for going deep. The d’Aboville system is preferable to the similar Henry system for its legibility, and for the ease with which it handles families with ten or more children.
+
+The d’Aboville groupings recorded on this site are structured around the root’s [seize quartiers](/seize-quartiers/), or sixteen great-great-grandparents, and their ancestors of the same family line. While traditionally used as a proof of nobility, these quartiers consist of farmers, and miners, and servants, and administrators, with no [quarters of nobility](/quarters-of-nobility/) to be found.
+
+<br>
+
+#### Paternal Quarters
+
+1. [Stein](/stein/)
+2. ???
+3. [Schevardo](/schevardo/)
+4. [Muss](/muss/)
+5. [Ward](/ward/)
+6. [Alderson](/alderson/)
+7. [Mifsud](/mifsud/)
+8. [Camoin](/camoin/)
+
+<br>
+
+#### Maternal Quarters
+
+9. [Kirkham](/kirkham/)
+10. [Stevens](/stevens/)
+11. [Holland](/holland/)
+12. [Baker](/baker/)
+13. [Fitzpatrick](/fitzpatrick/)
+14. [Bowland](/bowland/)
+15. [Lougheed](/lougheed/)
+16. [Spanhouse](/spanhouse/)
+
+<br>
+
+## Register
+
+A surnames registry is an index of names intended to collect all ancestors with a given [surname](/surname/) in a straightforward, unified view, allowing for the tracing of direct lineages by said names. A surnames registry also has the benefit of making visible less prominent names in the ancestor table, surfacing those individuals that might otherwise go unnoticed. More generally, a surnames registry provides an opportunity for exploring the cultural and historical context of a given family name, which can help situate a specific root in their broader genealogical context.
+
+The surnames registry on this site allows for research that goes beyond the familial record, making connections and providing context where gaps in the genealogy appear.
+
+<br>
+
+#### Surnames
+
+* [Alderson](/alderson/)
+* [Anderson](/anderson/)
+* [Baker](/baker/)
+* [Bashforth](/bashforth/)
+* [Bowland](/bowland/)
+* [Bugeja](/bugeja/)
+* [Camoin](/camoin/)
+* [Edmonds](/edmonds/)
+* [Fitzgibbons](/fitzgibbons/)
+* [Fitzpatrick](/fitzpatrick/)
+* [Hall](/hall/)
+* [Hayes](/hayes/)
+* [Holland](/holland/)
+* [Kirkham](/kirkham/)
+* [Lougheed](/lougheed/)
+* [Mifsud](/mifsud/)
+* [Morrison](/morrison/)
+* [Muss](/muss/)
+* [Niesen](/niesen/)
+* [Schevardo](/schevardo/)
+* [Spanhouse](/spanhouse/)
+* [Spiteri](/spiteri/)
+* [Stein](/stein/)
+* [Stevens](/stevens/)
+* [Valliere](/valliere/)
+* [Ward](/ward/)
+* [Wherton](/wherton/)
+
+<br>
+
+## Research
+
+[Fitzpatrick Introductory Note](/fitzpatrick-introductory-note/)
+<br>[Irish Canadians](/irish-canadians/)
+<br>[Irish Immigration to Canada, Part One](/irish-immigration-to-canada-part-one/)
+<br>[Irish Immigration to Canada, Part Two](/irish-immigration-to-canada-part-two/)
+<br>[Kirkham Introductory Note](/kirkham-introductory-note/)
+<br>[Orangemen in Canada](/orangemen-in-canada/)
