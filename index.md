@@ -11,7 +11,7 @@ title: Infrequently Asked Questions
 
 <br>
 
-## Research Program
+## Program
 
 In his interview with Arnaud Villani, Gilles Deleuze remarks that "Bergson says that modern science has not found its metaphysics, the metaphysics it needs. It is that metaphysics that interests me." At once a scientist concerned with "determining the conditions of a problem" and a "pure metaphysician" focused on elaborating a new set of categories for philosophy, Deleuze's program is one I assume as my own.[^1]
 
@@ -28,7 +28,7 @@ My present efforts range across day-to-day games industry employment, longer ter
 
 <br>
 
-## Research Projects
+## Projects
 
 ### Courses
 * Course in Game Design
