@@ -111,6 +111,7 @@ main {
   width: 700px;
   flex: 1;
   padding: 20px;
+  margin-top: -5px;
 }
 
 #rightSidebar {
@@ -136,9 +137,6 @@ footer {
 /* Tag Styles */
 h1,h2,h3 {
   color: #000000;
-}
-
-h1, h2 {
   font-weight: normal;
 }
 
