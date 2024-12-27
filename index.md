@@ -21,7 +21,7 @@ I take my understanding of a "research program" from the philosopher Terence Bla
 
 [^2]: Terence Blake, "Pluralist Metaphysical Research Programmes: Feyerabend, Deleuze, Laruelle, Zizek, Serres, Stiegler, Badiou, Latour," *Agent Swarm*, November 17, 2016, <https://terenceblake.wordpress.com/2016/11/17/pluralist-metaphysical-research-programmes-feyerabend-deleuze-laruelle-zizek-serres-stiegler-badiou-latour/>.
 
-My present efforts range across day-to-day games industry employment, longer term research projects, and periodic creative outputs in game design and poetry. In these domains, my special focuses can be categorized, respectively, as *organization*, *metaphysics*, and *design*, which together form an interlocking concern originating in the program of thought summarized above. To give this concern a proper name we can use a term from Merleau-Ponty: *praktognosia*.[^3] This we might define in slantwise manner with another Deleuzianism, what he speaks of as "belief in the world."[^4]
+My present efforts range across day-to-day games industry employment, longer term research projects, and periodic creative outputs in game design and poetry. In these domains, my special focuses can be categorized, respectively, as *organization*, *metaphysics*, and *design*, which together form an interlocking concern originating in the program of thought summarized above. To mark this concern with a proper name we can use a term from Merleau-Ponty: *praktognosia*.[^3] This we might define in slantwise manner with another Deleuzianism, what he speaks of as "belief in the world."[^4]
 
 [^3]: Maurice Merleau-Ponty, *Phenomenology of Perception*, trans. Donald A. Landes (Abingdon, UK: Routledge, 2014), 31.
 [^4]: Toni Negri and Gilles Deleuze, "Control and Becoming," *The Funambulist*, February 22, 2011, <https://thefunambulist.net/editorials/philosophy-control-and-becoming-a-conversation-between-toni-negri-and-gilles-deleuze>.
@@ -40,18 +40,18 @@ My present efforts range across day-to-day games industry employment, longer ter
 
 ### Studies
 * Studies in Adventure Platforming
-* Studies in Computer Roleplaying
 * Studies in Character Action
+* Studies in Computer Roleplaying
 * Studies in Dungeon Crawling
 
 <br>
 
-### Queries
-* Queries in Phenomenology
-* Queries in Semiotics
-* Queries in Narratology
-* Queries in Cybernetics
-* Queries in Organization
+### Investigations
+* Investigations in Cybernetics
+* Investigations in Organization
+* Investigations in Narratology
+* Investigations in Phenomenology
+* Investigations in Semiotics
 
 <br>
 
