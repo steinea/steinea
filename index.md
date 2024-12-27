@@ -3,8 +3,56 @@ layout: home
 title: Infrequently Asked Questions
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+## Prescript
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+> "you must be the letter written in uncertainty" ---[Vivec](https://en.uesp.net/wiki/Morrowind:36_Lessons_of_Vivec,_Sermon_15)
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+> "to find, despite everything and everyone, true problems" ---[Villani and Deleuze](https://books.google.ca/books?id=uL9NEAAAQBAJ&pg=PA39)
+
+<br>
+
+## Research Program
+
+In his interview with Arnaud Villani, Gilles Deleuze remarks that "Bergson says that modern science has not found its metaphysics, the metaphysics it needs. It is that metaphysics that interests me." At once a scientist concerned with "determining the conditions of a problem" and a "pure metaphysician" focused on elaborating a new set of categories for philosophy, Deleuze's program is one I assume as my own.[^1]
+
+[^1]: Arnaud Villani and Gilles Deleuze, "Responses to a Series of Questions," in *COLLAPSE III*, ed. Robin Mackay, 39-43, (Falmouth: Urbanomic, 2007), 41, 42.
+
+I take my understanding of a "research program" from the philosopher Terence Blake, who in turn derives the concept of a "metaphysical research programme" from Karl Popper. For Blake, such programs can be evaluated with regard to a set of criteria he finds in the work of Paul Feyerabend: "openness, pluralism, testability, realism, diachronicity, apophaticism, and democracy."[^2] These criteria have served as a useful framework for my ongoing philosophical investigations since I first encountered them as an undergraduate.
+
+[^2]: Terence Blake, "Pluralist Metaphysical Research Programmes: Feyerabend, Deleuze, Laruelle, Zizek, Serres, Stiegler, Badiou, Latour," *Agent Swarm*, November 17, 2016, <https://terenceblake.wordpress.com/2016/11/17/pluralist-metaphysical-research-programmes-feyerabend-deleuze-laruelle-zizek-serres-stiegler-badiou-latour/>.
+
+My present efforts range across day-to-day games industry employment, longer term research projects, and periodic creative outputs in game design and poetry. In these domains, my special focuses can be categorized, respectively, as *organization*, *metaphysics*, and *design*, which together form an interlocking concern originating in the program of thought summarized above. To give this concern a proper name we can use a term from Merleau-Ponty: *praktognosia*.[^3] This we might define in slantwise manner with another Deleuzianism, what he speaks of as "belief in the world."[^4]
+
+[^3]: Maurice Merleau-Ponty, *Phenomenology of Perception*, trans. Donald A. Landes (Abingdon, UK: Routledge, 2014), 31.
+[^4]: Toni Negri and Gilles Deleuze, "Control and Becoming," *The Funambulist*, February 22, 2011, <https://thefunambulist.net/editorials/philosophy-control-and-becoming-a-conversation-between-toni-negri-and-gilles-deleuze>.
+
+<br>
+
+## Research Projects
+
+### Courses
+* Course in Game Design
+* Course in Game Production
+* Course in Interactive Storytelling
+* Course in Video Game Aesthetics
+
+<br>
+
+### Studies
+* Studies in Adventure Platforming
+* Studies in Computer Roleplaying
+* Studies in Character Action
+* Studies in Dungeon Crawling
+
+<br>
+
+### Queries
+* Queries in Phenomenology
+* Queries in Semiotics
+* Queries in Narratology
+* Queries in Cybernetics
+* Queries in Organization
+
+<br>
+
+## Notes
