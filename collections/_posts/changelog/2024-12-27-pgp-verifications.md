@@ -36,4 +36,11 @@ Lastly, I added a Forgejo claim for my Codeberg account, which also quite quick.
 
 * <code>proof@ariadne.id=https://DOMAIN/USERNAME/REPO_NAME</code>
 
-I'm currently having trouble with my [Liberapay](https://liberapay.com/steinea/), [SourceHut](https://git.sr.ht/~steinea/keyoxide_proof), and DNS proofs, and I'm not sure what I'm doing wrong... The Keyoxide Project has their Liberapay [claim verified](https://keyoxide.org/project@keyoxide.org) and it [looks](https://liberapay.com/Keyoxide) exactly the same as [mine](https://liberapay.com/steinea/). Likewise, they have several DNS proofs verified, but something is not working with my TXT record with Hover. Not sure how to fix it. And I haven't been able to find any Keyoxide profile with a SourceHut claim, so not sure where to start here.
+I'm currently having trouble with my [Liberapay](https://liberapay.com/steinea/), [SourceHut](https://git.sr.ht/~steinea/keyoxide_proof), and ~~DNS proofs~~, and I'm not sure what I'm doing wrong... The Keyoxide Project has their Liberapay [claim verified](https://keyoxide.org/project@keyoxide.org) and it [looks](https://liberapay.com/Keyoxide) exactly the same as [mine](https://liberapay.com/steinea/). ~~Likewise, they have several DNS proofs verified, but something is not working with my TXT record with Hover. Not sure how to fix it.~~ And I haven't been able to find any Keyoxide profile with a SourceHut claim, so not sure where to start here.
+
+*2024-12-28 Edit: Seems the TXT record for my DNS proof just took longer to propagate than expected, and as of now is showing a successful claim verification. I haven't changed anything since yesterday, so here are the steps I [followed](https://docs.keyoxide.org/service-providers/dns/):*
+
+* *In Hover, navigated to DNS, clicked Add a Record, and selected type TXT*
+* *Set the hostname to <code>@</code> to specify my root domain*
+* *Pasted the proof <code>openpgp4fpr:FINGERPRINT</code> in the content field*
+* *Added the claim to my gpg key with <code>proof@ariadne.id=dns:DOMAIN?type=TXT</code>*
