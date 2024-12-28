@@ -6,8 +6,8 @@ permalink: /now/
 
 {% for post in site.categories.now limit:1 %}
 
-	<p class="meta">
-		<time class="dt-published" datetime="{{ post.date }}"><strong>{{ post.date | date: "%Y-%m-%d" }}</strong></time>
+	<p class="p-name">
+		<strong>{{ post.title }}</strong>
 	</p>
 
 {% endfor %}
