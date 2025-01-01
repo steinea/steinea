@@ -17,7 +17,7 @@ I have wanted to learn how to play *Magic: The Gathering* for some time, but nev
 [^1]: Avery Alder, [@lackingceremony](https://twitter.com/lackingceremony), *Twitter*.
 [^2]: Zullie the Witch, "In an interview," *Twitter*, May 4, 2022, <https://twitter.com/ZullieTheWitch/status/1521838805308915712> and "Compare Nykthos," *Twitter*, July 18, 2022, <https://twitter.com/ZullieTheWitch/status/1548991938581434368>.
 [^3]: Jay Dragon, "The Magpie's Cube," *Medium*, June 15, 2022, <https://possumcreek.medium.com/the-magpies-cube-54eac20f36fd>.
-[^4]: Bruno Dias, "A Compleat History of the Magic: the Gathering Metagame," *Cohost*, parts 1-20, October 8, 2022 / January 17, 2023, <https://cohost.org/bruno/tagged/compleat%20history%20of%20the%20magic%20the%20gathering%20metagame>.
+[^4]: Bruno Dias, "A Compleat History of the Magic: the Gathering Metagame," *Cohost*, parts 1-20, October 8, 2022 / January 17, 2023, [Cohost](https://cohost.org/bruno/tagged/compleat%20history%20of%20the%20magic%20the%20gathering%20metagame).
 
 So it was to my great delight that I finally had the chance to try it out, invited by a local friend to a draft night for the new *The Lord of the Rings* set.[^5] The last trading card game I actively played and collected was *The Lord of the Rings Trading Card Game*, so this felt like a fitting entry point to the hobby.[^6] I had a great time.
 
