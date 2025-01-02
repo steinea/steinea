@@ -60,9 +60,9 @@ permalink: /collections/
 
 [Books](/books/)
 <br>[Films](/films/)
-<br>[Games](/games/)
 <br>[Lego](/lego/)
 <br>[Television](/television/)
+<br>[Video Games](/videogames/)
 <br>[Wiki](/wiki/)
 
 <br>
