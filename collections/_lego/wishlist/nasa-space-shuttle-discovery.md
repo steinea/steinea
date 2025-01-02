@@ -1,7 +1,7 @@
 ---
 layout: lego
 category: lego
-subcategory: wishlist
+subcategory: backlog
 title: NASA Space Shuttle Discovery
 series: Icons
 item: 10283
