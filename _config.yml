@@ -3,9 +3,8 @@ title: Eric Stein
 name: Eric Stein
 email: steinea@protonmail.com
 description: >-
-  Eric Stein is a development director, game development instructor, tabletop game designer, and occasional poet. This site collects his writing, research, and design work.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: https://www.steinea.ca
+  Eric Stein is a game developer, game studies researcher, tabletop game designer, and occasional poet.
+url: https://steinea.ca
 twitter_username: steinea
 github_username: steinea
 
@@ -46,6 +45,7 @@ collections:
 plugins:
   - jekyll-feed
   - jekyll_custom_permalink
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.
