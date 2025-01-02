@@ -58,7 +58,8 @@ permalink: /collections/
 
 ## Pages
 
-[Books](/books/)
+[Board Games](/boardgames/)
+<br>[Books](/books/)
 <br>[Films](/films/)
 <br>[Lego](/lego/)
 <br>[Television](/television/)

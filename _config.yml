@@ -13,6 +13,9 @@ collections_dir: collections
 collections:
   posts:
     permalink: /:year/:month/:day/:title/
+  boardgames:
+    output: true
+    permalink: /:title/
   books:
     output: true
     permalink: /:title/

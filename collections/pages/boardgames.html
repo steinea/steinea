@@ -1,0 +1,15 @@
+---
+layout: default
+title: Board Games
+permalink: /boardgames/
+---
+
+<p><em><u>Owned</u></em> <em><a href="/boardgames/wishlist/">Wishlist</a></em></p>
+
+{% assign sorted = site.boardgames | sort: 'title' %}
+	{% for item in sorted %}
+			{% if item.progress contains "owned" %}
+				{{ item.designer }}, <em><a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a></em>, {{ item.releaseDate }}
+				<br>
+			{% endif %}
+	{% endfor %}
