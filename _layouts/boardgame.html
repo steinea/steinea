@@ -4,11 +4,17 @@ layout: default
 
 <!-- Layout for posts in the Board Games collection -->
 
-<h2><a href="{{ page.link }}" target="_blank" rel="noopener noreferrer">{{ page.publisher }}</a></h2>
+{% if page.subcategory contains "wishlist" %}
+  <p class="meta"><em>{{ page.price }}</em></p>
+
+{% else %}
+  <p class="meta"><strong>{{ page.releaseDate | date: "%Y" }}</strong></p>
+
+{% endif %}
 
 <a class="u-url" href="{{ page.url }}"></a>
 
-<p class="meta"><strong>{{ page.releaseDate }}</strong></p>
+<br>
 
 <article class="h-entry">
   <div class="e-content"><div class="post">

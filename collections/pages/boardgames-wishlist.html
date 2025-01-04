@@ -8,8 +8,8 @@ permalink: /boardgames/wishlist/
 
 {% assign sorted = site.boardgames | sort: 'title' %}
 	{% for item in sorted %}
-			{% if item.progress contains "wishlist" %}
-				{{ item.author }}, <em><a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a></em>, {{ item.releaseDate }}
+			{% if item.subcategory contains "wishlist" %}
+				{{ item.price }} {{ item.author }}, <em><a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a></em>, {{ item.releaseDate }}
 				<br>
 			{% endif %}
 	{% endfor %}
