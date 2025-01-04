@@ -1,13 +1,23 @@
 ---
 layout: boardgame
+category:
+subcategory: wishlist
 title: Contract Bridge
 author: Harold Stirling Vanderbilt
 publisher: Traditional
 releaseDate: 1925
-progress: wishlist
 link: https://en.wikipedia.org/wiki/Contract_bridge
 date: 2025-01-02
+price: Free
 ---
+
+### Citation
+
+Vanderbilt, Harold Sterling. *Contract Bridge.* 1925. [Wikipedia]({{ page.link }}).
+
+<br>
+
+### Abstract
 
 "Contract bridge, or simply bridge, is a trick-taking card game using a standard 52-card deck. In its basic format, it is played by four players in two competing partnerships, with partners sitting opposite each other around a table. Millions of people play bridge worldwide in clubs, tournaments, online and with friends at home, making it one of the world's most popular card games, particularly among seniors. The World Bridge Federation (WBF) is the governing body for international competitive bridge, with numerous other bodies governing it at the regional level.
 
