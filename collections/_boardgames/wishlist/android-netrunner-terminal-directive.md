@@ -9,7 +9,7 @@ publisher: Fantasy Flight Games
 releaseDate: 2017
 upc: BGG
 link: https://boardgamegeek.com/boardgame/213269/android-netrunner-terminal-directive/credits
-date: 2030-01-01
+date: 2025-01-03
 price: OOP
 ---
 
