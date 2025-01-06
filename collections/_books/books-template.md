@@ -5,9 +5,10 @@ subcategory:
 author:
 title:
 published:
+started:
+finished:
 date: 1111-11-11
 rating: exclude
-price:
 ---
 
 ### Citation
