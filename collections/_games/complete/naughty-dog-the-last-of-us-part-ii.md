@@ -8,12 +8,12 @@ releaseDate: 2020-06-19
 howlongtobeat: 43
 difficulty: 3/10
 trophyGuide: https://psnprofiles.com/guide/10411-the-last-of-us-part-ii-trophy-guide
-durationHours: 56
-trophies: 26/28
-percent: 93%
-progress: now
+durationHours: 77
+trophies: 28/28
+percent: 100%
+progress: complete
 link: https://psnprofiles.com/trophies/10960-the-last-of-us-part-ii/barrelofjuice
-date: 2020-07-05
+date: 2025-01-27
 ---
 
 From [Wikipedia](https://en.wikipedia.org/wiki/The_Last_of_Us_Part_II):
