@@ -8,7 +8,7 @@ releaseDate: 2021-12-08
 howlongtobeat: 29
 difficulty:
 trophyGuide:
-durationHours: 313
+durationHours: 352
 trophies: 131/144
 percent: 91%
 progress: now
