@@ -9,9 +9,9 @@ howlongtobeat: 145
 difficulty: --
 trophyGuide: --
 durationHours: 104
-trophies: 50/50
-percent: 100%
-progress: complete
+trophies: 50/62
+percent: 80%
+progress: now
 link: https://www.exophase.com/game/starfield-xbox/achievements/#2209141
 date: 2024-02-25
 ---
