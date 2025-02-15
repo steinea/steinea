@@ -21,6 +21,7 @@ tags: literature
 * 42 Entertainment, [*I Love Bees*](https://en.wikipedia.org/wiki/I_Love_Bees) (2004)
 * Jung, [*The Red Book*](https://en.wikipedia.org/wiki/The_Red_Book_(Jung)) (2009)
 * 3301, [Cicada 3301](https://en.wikipedia.org/wiki/Cicada_3301) (2012)
+* Unfiction & CFIA, [unforum](https://forums.unfiction.com/forums.html), 2025
 
 <br>
 
