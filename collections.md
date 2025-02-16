@@ -4,24 +4,6 @@ title: Collections
 permalink: /collections/
 ---
 
-## Activity
-
-[Building](/building/)
-<br>Drinking
-<br>Listening
-<br>[Playing](/playing/)
-<br>[Posting](/posting/)
-<br>[Reading](/reading/)
-<br>Sleeping
-<br>Traveling
-<br>[Watching](/watching/)
-{% comment %}
-<br>Dreaming
-<br>Exercising
-{% endcomment %}
-
-<br>
-
 ## Blog
 
 [Intermezzo](/intermezzo/)
@@ -56,17 +38,36 @@ permalink: /collections/
 
 <br>
 
-## Pages
+## Activity
+
+[Building](/building/)
+<br>Drinking
+<br>Listening
+<br>[Playing](/playing/)
+<br>[Posting](/posting/)
+<br>[Reading](/reading/)
+<br>Sleeping
+<br>Traveling
+<br>[Watching](/watching/)
+{% comment %}
+<br>Dreaming
+<br>Exercising
+{% endcomment %}
+
+<br>
+
+## Inventory
 
 [Bluray](/bluray/)
 <br>[Board Games](/boardgames/)
 <br>[Books](/books/)
 <br>[Films](/films/)
 <br>[Lego](/lego/)
+<br>Magic
 <br>[Records](/records/)
-<br>[Tabletop Roleplaying Games](/ttrpgs/)
 <br>[Television](/television/)
 <br>[Video Games](/videogames/)
+<br>[Zines](/zines/)
 
 <br>
 
