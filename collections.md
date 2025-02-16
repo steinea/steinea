@@ -37,7 +37,7 @@ permalink: /collections/
 
 <br>
 
-## Games
+## Design
 
 [Ludology, Perhaps](/ludology-perhaps/)
 <br>[Vagrant Ludology](/vagrant-ludology/)
