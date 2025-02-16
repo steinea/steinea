@@ -58,12 +58,16 @@ permalink: /collections/
 
 ## Pages
 
-[Board Games](/boardgames/)
+[Blu-ray](/blu-ray/)
+<br>[Board Games](/boardgames/)
 <br>[Books](/books/)
 <br>[Films](/films/)
 <br>[Lego](/lego/)
+<br>[Records](/records/)
+<br>TTRPGs
 <br>[Television](/television/)
 <br>[Video Games](/videogames/)
-<br>[Wiki](/wiki/)
 
 <br>
+
+## [Wiki](/wiki/)
