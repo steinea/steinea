@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Infrequently Asked Questions
+title: Eric Stein
 ---
 
 ## Prescript
