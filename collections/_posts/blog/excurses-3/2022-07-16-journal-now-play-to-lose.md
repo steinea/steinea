@@ -2,7 +2,7 @@
 layout: post
 category: blog
 subcategory: excurses-3
-title: Play to Lose
+title: Journal, Now, Play to Lose
 date: 2022-07-16
 ---
 
