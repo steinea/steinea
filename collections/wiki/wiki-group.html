@@ -6,19 +6,7 @@ permalink: /wiki/group/
 
 <p><em><a href="/wiki/">Heap</a></em> <em><a href="/wiki/stream/">Stream</a></em> <em><u>Group</u></em></p>
 
-<h2>Unsorted</h2>
-
-{% assign sorted = site.wiki | sort: 'title' %}
-  {% for item in sorted %}
-    {% if item.subcategory contains "unsorted" %}
-      <a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a>
-      <br>
-    {% endif %}
-  {% endfor %}
-
-<br>
-
-<h2>Art</h2>
+<h2 id="art">Art</h2>
 
 {% assign sorted = site.wiki | sort: 'title' %}
   {% for item in sorted %}
@@ -30,7 +18,7 @@ permalink: /wiki/group/
 
 <br>
 
-<h2>Associations</h2>
+<h2 id="associations">Associations</h2>
 
 {% assign sorted = site.wiki | sort: 'title' %}
   {% for item in sorted %}
@@ -42,7 +30,7 @@ permalink: /wiki/group/
 
 <br>
 
-<h2>Athletics</h2>
+<h2 id="athletics">Athletics</h2>
 
 {% assign sorted = site.wiki | sort: 'title' %}
   {% for item in sorted %}
@@ -54,7 +42,7 @@ permalink: /wiki/group/
 
 <br>
 
-<h2>Authorship</h2>
+<h2 id="authorship">Authorship</h2>
 
 {% assign sorted = site.wiki | sort: 'title' %}
   {% for item in sorted %}
@@ -66,7 +54,7 @@ permalink: /wiki/group/
 
 <br>
 
-<h2>Book Series</h2>
+<h2 id="bookseries">Book Series</h2>
 
 {% assign sorted = site.wiki | sort: 'title' %}
   {% for item in sorted %}
@@ -78,7 +66,7 @@ permalink: /wiki/group/
 
 <br>
 
-<h2>Climate</h2>
+<h2 id="climate">Climate</h2>
 
 {% assign sorted = site.wiki | sort: 'title' %}
   {% for item in sorted %}
@@ -90,7 +78,7 @@ permalink: /wiki/group/
 
 <br>
 
-<h2>Collectives</h2>
+<h2 id="collectives">Collectives</h2>
 
 {% assign sorted = site.wiki | sort: 'title' %}
   {% for item in sorted %}
@@ -102,7 +90,7 @@ permalink: /wiki/group/
 
 <br>
 
-<h2>Concepts</h2>
+<h2 id="concepts">Concepts</h2>
 
 {% assign sorted = site.wiki | sort: 'title' %}
   {% for item in sorted %}
@@ -114,7 +102,7 @@ permalink: /wiki/group/
 
 <br>
 
-<h2>Conferences</h2>
+<h2 id="conferences">Conferences</h2>
 
 {% assign sorted = site.wiki | sort: 'title' %}
   {% for item in sorted %}
@@ -126,7 +114,7 @@ permalink: /wiki/group/
 
 <br>
 
-<h2>Festivals/Conventions/Expos</h2>
+<h2 id="festivals">Festivals</h2>
 
 {% assign sorted = site.wiki | sort: 'title' %}
   {% for item in sorted %}
@@ -138,7 +126,7 @@ permalink: /wiki/group/
 
 <br>
 
-<h2>Funds</h2>
+<h2 id="funds">Funds</h2>
 
 {% assign sorted = site.wiki | sort: 'title' %}
   {% for item in sorted %}
@@ -150,9 +138,7 @@ permalink: /wiki/group/
 
 <br>
 
-<h2>Games</h2>
-
-<h3>Game Jams</h3>
+<h2 id="gamejams">Game Jams</h2>
 
 {% assign sorted = site.wiki | sort: 'title' %}
   {% for item in sorted %}
@@ -164,55 +150,7 @@ permalink: /wiki/group/
 
 <br>
 
-<h3>Magic: The Gathering</h3>
-
-{% assign sorted = site.wiki | sort: 'title' %}
-  {% for item in sorted %}
-    {% if item.subcategory contains "magic-the-gathering" %}
-      <a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a>
-      <br>
-    {% endif %}
-  {% endfor %}
-
-<br>
-
-<h3>Small Games</h3>
-
-{% assign sorted = site.wiki | sort: 'title' %}
-  {% for item in sorted %}
-    {% if item.subcategory contains "small-games" %}
-      <a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a>
-      <br>
-    {% endif %}
-  {% endfor %}
-
-<br>
-
-<h3>Tabletop Games</h3>
-
-{% assign sorted = site.wiki | sort: 'title' %}
-  {% for item in sorted %}
-    {% if item.subcategory contains "tabletop-games" %}
-      <a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a>
-      <br>
-    {% endif %}
-  {% endfor %}
-
-<br>
-
-<h3>Video Games</h3>
-
-{% assign sorted = site.wiki | sort: 'title' %}
-  {% for item in sorted %}
-    {% if item.subcategory contains "video-games" %}
-      <a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a>
-      <br>
-    {% endif %}
-  {% endfor %}
-
-<br>
-
-<h2>Institutes</h2>
+<h2 id="institutes">Institutes</h2>
 
 {% assign sorted = site.wiki | sort: 'title' %}
   {% for item in sorted %}
@@ -224,7 +162,7 @@ permalink: /wiki/group/
 
 <br>
 
-<h2>Internet</h2>
+<h2 id="internet">Internet</h2>
 
 {% assign sorted = site.wiki | sort: 'title' %}
   {% for item in sorted %}
@@ -236,7 +174,7 @@ permalink: /wiki/group/
 
 <br>
 
-<h2>Journals</h2>
+<h2 id="journals">Journals</h2>
 
 {% assign sorted = site.wiki | sort: 'title' %}
   {% for item in sorted %}
@@ -248,7 +186,7 @@ permalink: /wiki/group/
 
 <br>
 
-<h2>Lego</h2>
+<h2 id="lego">Lego</h2>
 
 {% assign sorted = site.wiki | sort: 'title' %}
   {% for item in sorted %}
@@ -260,7 +198,7 @@ permalink: /wiki/group/
 
 <br>
 
-<h2>Literary Reviews</h2>
+<h2 id="literaryreviews">Literary Reviews</h2>
 
 {% assign sorted = site.wiki | sort: 'title' %}
   {% for item in sorted %}
@@ -272,7 +210,7 @@ permalink: /wiki/group/
 
 <br>
 
-<h2>Magazines</h2>
+<h2 id="magazines">Magazines</h2>
 
 {% assign sorted = site.wiki | sort: 'title' %}
   {% for item in sorted %}
@@ -284,7 +222,19 @@ permalink: /wiki/group/
 
 <br>
 
-<h2>People</h2>
+<h2 id="mtg">Magic: The Gathering</h2>
+
+{% assign sorted = site.wiki | sort: 'title' %}
+  {% for item in sorted %}
+    {% if item.subcategory contains "magic-the-gathering" %}
+      <a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a>
+      <br>
+    {% endif %}
+  {% endfor %}
+
+<br>
+
+<h2 id="people">People</h2>
 
 {% assign sorted = site.wiki | sort: 'title' %}
   {% for item in sorted %}
@@ -296,7 +246,7 @@ permalink: /wiki/group/
 
 <br>
 
-<h2>Politics</h2>
+<h2 id="politics">Politics</h2>
 
 {% assign sorted = site.wiki | sort: 'title' %}
   {% for item in sorted %}
@@ -308,7 +258,7 @@ permalink: /wiki/group/
 
 <br>
 
-<h2>Psychometrics</h2>
+<h2 id="psychometrics">Psychometrics</h2>
 
 {% assign sorted = site.wiki | sort: 'title' %}
   {% for item in sorted %}
@@ -320,7 +270,7 @@ permalink: /wiki/group/
 
 <br>
 
-<h2>Publishing</h2>
+<h2 id="publishing">Publishing</h2>
 
 {% assign sorted = site.wiki | sort: 'title' %}
   {% for item in sorted %}
@@ -332,7 +282,7 @@ permalink: /wiki/group/
 
 <br>
 
-<h2>Schools of Thought</h2>
+<h2 id="schoolsofthought">Schools of Thought</h2>
 
 {% assign sorted = site.wiki | sort: 'title' %}
   {% for item in sorted %}
@@ -344,7 +294,19 @@ permalink: /wiki/group/
 
 <br>
 
-<h2>Space</h2>
+<h2 id="smallgames">Small Games</h2>
+
+{% assign sorted = site.wiki | sort: 'title' %}
+  {% for item in sorted %}
+    {% if item.subcategory contains "small-games" %}
+      <a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a>
+      <br>
+    {% endif %}
+  {% endfor %}
+
+<br>
+
+<h2 id="space">Space</h2>
 
 {% assign sorted = site.wiki | sort: 'title' %}
   {% for item in sorted %}
@@ -356,7 +318,7 @@ permalink: /wiki/group/
 
 <br>
 
-<h2>Standards</h2>
+<h2 id="standards">Standards</h2>
 
 {% assign sorted = site.wiki | sort: 'title' %}
   {% for item in sorted %}
@@ -368,7 +330,31 @@ permalink: /wiki/group/
 
 <br>
 
-<h2>Workshops</h2>
+<h2 id="tabletopgames">Tabletop Games</h2>
+
+{% assign sorted = site.wiki | sort: 'title' %}
+  {% for item in sorted %}
+    {% if item.subcategory contains "tabletop-games" %}
+      <a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a>
+      <br>
+    {% endif %}
+  {% endfor %}
+
+<br>
+
+<h2 id="videogames">Video Games</h2>
+
+{% assign sorted = site.wiki | sort: 'title' %}
+  {% for item in sorted %}
+    {% if item.subcategory contains "video-games" %}
+      <a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a>
+      <br>
+    {% endif %}
+  {% endfor %}
+
+<br>
+
+<h2 id="workshops">Workshops</h2>
 
 {% assign sorted = site.wiki | sort: 'title' %}
   {% for item in sorted %}
@@ -380,7 +366,7 @@ permalink: /wiki/group/
 
 <br>
 
-<h2>Worldbuilding</h2>
+<h2 id="worldbuilding">Worldbuilding</h2>
 
 {% assign sorted = site.wiki | sort: 'title' %}
   {% for item in sorted %}
