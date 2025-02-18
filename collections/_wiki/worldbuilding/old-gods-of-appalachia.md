@@ -1,7 +1,7 @@
 ---
 layout: wiki
 category: wiki
-subcategory: unsorted
+subcategory: worldbuilding
 title: Old Gods of Appalachia
 publication: Web
 link: https://www.oldgodsofappalachia.com/

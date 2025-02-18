@@ -1,7 +1,7 @@
 ---
 layout: wiki
 category: wiki
-subcategory: unsorted
+subcategory: worldbuilding
 title: The Silt Verses
 publication: Web
 link: https://www.thesiltverses.com/
