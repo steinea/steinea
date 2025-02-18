@@ -3,8 +3,8 @@
 body {
   font-family: monospace;
   margin: -5px 0 0 0;
+  max-width: 756px;
   padding: 20px;
-  width: 756px;
 }
 
 /* Shadow box div style */
