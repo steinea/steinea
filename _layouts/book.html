@@ -4,6 +4,8 @@ layout: default
 
 <!-- Layout for pages in the Books collection -->
 
+<br>
+
 <a class="u-url" href="{{ page.url }}"></a>
 
 {% if page.subcategory contains "backlog" %}
@@ -16,8 +18,6 @@ layout: default
   <p class="meta"><strong>{{ page.date | date: "%Y-%m-%d" }}</strong></p>
 
 {% endif %}
-
-<br>
 
 <article class="h-entry">
   <div class="e-content"><div class="post">

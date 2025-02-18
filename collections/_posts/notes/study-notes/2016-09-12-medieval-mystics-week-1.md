@@ -1,7 +1,8 @@
 ---
 layout: post
 category: study
-title: Medieval Mystics, Week 1
+title: Medieval Mystics
+subtitle: Week 1
 date: 2016-09-12
 ---
 

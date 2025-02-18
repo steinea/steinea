@@ -5,6 +5,6 @@ permalink: /study/
 ---
 
 {% for post in site.categories.study %}
-		{{ post.date | date: "%Y-%m-%d" }} <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+		{{ post.date | date: "%Y-%m-%d" }} <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}, {{ post.subtitle }}</a>
 		<br>
 {% endfor %}
