@@ -8,12 +8,12 @@ releaseDate: 2024-09-27
 howlongtobeat: 44
 difficulty: 5/10
 trophyGuide: https://www.powerpyx.com/ea-sports-fc25-trophy-guide-roadmap/
-durationHours: 40
-trophies: 18/40
-percent: 40%
+durationHours: 96
+trophies: 24/40
+percent: 60%
 progress: now
 link: https://psnprofiles.com/trophies/29388-ea-sports-fc-25/barrelofjuice
-date: 2025-02-02
+date: 2025-02-22
 ---
 
 From [Wikipedia](https://en.wikipedia.org/wiki/EA_Sports_FC_25):
