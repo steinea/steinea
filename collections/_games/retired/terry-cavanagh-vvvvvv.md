@@ -11,7 +11,7 @@ trophyGuide: --
 durationHours: 5
 trophies: 1/19
 percent: 5%
-progress: stopped
+progress: retired
 link: https://steamcommunity.com/id/steinea/stats/70300/
 date: 2017-01-14
 ---

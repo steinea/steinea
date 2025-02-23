@@ -11,7 +11,7 @@ trophyGuide: --
 durationHours: 17
 trophies: 20/22
 percent: 90%
-progress: stopped
+progress: retired
 link: https://www.exophase.com/game/altos-odyssey-android/achievements/#1644034
 date: 2024-02-29
 ---

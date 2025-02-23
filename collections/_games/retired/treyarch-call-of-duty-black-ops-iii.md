@@ -11,7 +11,7 @@ trophyGuide: https://psnprofiles.com/guide/3557-call-of-duty-black-ops-iii-troph
 durationHours: 19
 trophies: 5/99
 percent: 5%
-progress: stopped
+progress: retired
 link: --
 date: 2017-08-15
 ---

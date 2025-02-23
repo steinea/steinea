@@ -11,7 +11,7 @@ trophyGuide: https://psnprofiles.com/guide/1462-battlefield-4-trophy-guide
 durationHours: 22
 trophies: 29/68
 percent: 42%
-progress: stopped
+progress: retired
 link: --
 date: 2014-08-17
 ---

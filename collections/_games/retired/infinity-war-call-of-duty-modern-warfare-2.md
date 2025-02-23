@@ -11,7 +11,7 @@ trophyGuide: --
 durationHours: --
 trophies: 39/50
 percent: 78%
-progress: stopped
+progress: retired
 link: --
 date: 2009-12-03
 ---

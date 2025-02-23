@@ -11,7 +11,7 @@ trophyGuide: https://psnprofiles.com/guide/339-bioshock-infinite-trophy-guide
 durationHours: --
 trophies: 64/81
 percent: 79%
-progress: stopped
+progress: retired
 link: https://psnprofiles.com/trophies/1894-bioshock-infinite/barrelofjuice
 date: 2014-08-22
 ---

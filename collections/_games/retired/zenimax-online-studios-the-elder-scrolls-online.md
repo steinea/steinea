@@ -11,7 +11,7 @@ trophyGuide: https://psnprofiles.com/guide/16974-the-elder-scrolls-online-trophy
 durationHours: 176
 trophies: 21/124
 percent: 17%
-progress: stopped
+progress: retired
 link: https://psnprofiles.com/trophies/3610-the-elder-scrolls-online/barrelofjuice
 date: 2019-11-05
 ---

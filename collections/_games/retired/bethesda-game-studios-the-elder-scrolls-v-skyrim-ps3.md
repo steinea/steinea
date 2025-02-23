@@ -11,7 +11,7 @@ trophyGuide: https://psnprofiles.com/guide/1277-the-elder-scrolls-v-skyrim-troph
 durationHours: --
 trophies: 56/76
 percent: 74%
-progress: stopped
+progress: retired
 link: https://psnprofiles.com/trophies/1161-the-elder-scrolls-v-skyrim/barrelofjuice
 date: 2014-08-31
 ---
