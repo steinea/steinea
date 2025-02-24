@@ -19,6 +19,17 @@ body {
   padding: 10px;
 }
 
+/* Collapsible Table */
+
+@media only screen and (max-width: 756px) {
+
+  .collapsible {
+    display: none;
+  }
+
+}
+
+
 /* Internal vs External Links */
 /* Stack Overflow: https://stackoverflow.com/questions/26898931/ */
 
@@ -104,4 +115,15 @@ h6 {
   font-weight: normal;
   font-style: italic;
   margin: 0.67em 0;
+}
+
+
+/* Table Styles */
+
+table {
+  width: 100%
+}
+
+th {
+  text-align: left;
 }
