@@ -11,22 +11,22 @@ permalink: /playing/
 <p><table>
   <tr>
     <th>In Progress</th>
-    <th>Platform</th>
-		<th>Hours</th>
-		<th>Trophies</th>
+    <th class="collapsible">Platform</th>
+		<th class="collapsible">Hours</th>
+		<th class="collapsible">Trophies</th>
     <th>Percent</th>
-		<th>Date</th>
+		<th class="collapsible">Date</th>
   </tr>
   {% assign sorted = site.games | sort: 'date' | reverse %}
   {% for item in sorted %}
   {% if item.progress contains "now" %}
   <tr>
 		<td><a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a></td>
-		<td>{{ item.platform }}</td>
-    <td>{{ item.durationHours }}</td>
-		<td>{{ item.trophies }}</td>
+		<td class="collapsible">{{ item.platform }}</td>
+    <td class="collapsible">{{ item.durationHours }}</td>
+		<td class="collapsible">{{ item.trophies }}</td>
     <td>{{ item.percent }}</td>
-    <td>{{ item.date | date: '%Y-%m-%d' }}</td>
+    <td class="collapsible">{{ item.date | date: '%Y-%m-%d' }}</td>
 	</tr>
   {% endif %}
   {% endfor %}
@@ -37,21 +37,21 @@ permalink: /playing/
 <p><table>
   <tr>
     <th>Most Played</th>
-    <th>Platform</th>
+    <th class="collapsible">Platform</th>
 		<th>Hours</th>
-		<th>Trophies</th>
-    <th>Percent</th>
-		<th>Date</th>
+		<th class="collapsible">Trophies</th>
+    <th class="collapsible">Percent</th>
+		<th class="collapsible">Date</th>
   </tr>
   {% assign sorted = site.games | sort: 'durationHours' | reverse %}
   {% for item in sorted limit:10 %}
   <tr>
 		<td><a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a></td>
-		<td>{{ item.platform }}</td>
+		<td class="collapsible">{{ item.platform }}</td>
     <td>{{ item.durationHours }}</td>
-		<td>{{ item.trophies }}</td>
-    <td>{{ item.percent }}</td>
-    <td>{{ item.date | date: '%Y-%m-%d' }}</td>
+		<td class="collapsible">{{ item.trophies }}</td>
+    <td class="collapsible">{{ item.percent }}</td>
+    <td class="collapsible">{{ item.date | date: '%Y-%m-%d' }}</td>
 	</tr>
   {% endfor %}
 </table></p>
@@ -61,9 +61,9 @@ permalink: /playing/
 <p><table>
   <tr>
     <th>Complete</th>
-    <th>Platform</th>
-		<th>Hours</th>
-		<th>Trophies</th>
+    <th class="collapsible">Platform</th>
+		<th class="collapsible">Hours</th>
+		<th class="collapsible">Trophies</th>
 		<th>Date</th>
   </tr>
   {% assign sorted = site.games | sort: 'date' | reverse %}
@@ -71,9 +71,9 @@ permalink: /playing/
   {% if item.progress contains "complete" %}
   <tr>
 		<td><a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a></td>
-		<td>{{ item.platform }}</td>
-    <td>{{ item.durationHours }}</td>
-		<td>{{ item.trophies }}</td>
+		<td class="collapsible">{{ item.platform }}</td>
+    <td class="collapsible">{{ item.durationHours }}</td>
+		<td class="collapsible">{{ item.trophies }}</td>
     <td>{{ item.date | date: '%Y-%m-%d' }}</td>
 	</tr>
   {% endif %}
@@ -85,22 +85,22 @@ permalink: /playing/
 <p><table>
   <tr>
     <th>Retired</th>
-    <th>Platform</th>
-		<th>Hours</th>
-		<th>Trophies</th>
+    <th class="collapsible">Platform</th>
+		<th class="collapsible">Hours</th>
+		<th class="collapsible">Trophies</th>
     <th>Percent</th>
-		<th>Date</th>
+		<th class="collapsible">Date</th>
   </tr>
   {% assign sorted = site.games | sort: 'date' | reverse %}
   {% for item in sorted %}
   {% if item.progress contains "retired" %}
   <tr>
 		<td><a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a></td>
-		<td>{{ item.platform }}</td>
-    <td>{{ item.durationHours }}</td>
-		<td>{{ item.trophies }}</td>
+		<td class="collapsible">{{ item.platform }}</td>
+    <td class="collapsible">{{ item.durationHours }}</td>
+		<td class="collapsible">{{ item.trophies }}</td>
     <td>{{ item.percent }}</td>
-    <td>{{ item.date | date: '%Y-%m-%d' }}</td>
+    <td class="collapsible">{{ item.date | date: '%Y-%m-%d' }}</td>
 	</tr>
   {% endif %}
   {% endfor %}
@@ -112,7 +112,7 @@ permalink: /playing/
   <tr>
     <th>Backlog</th>
     <th>Platform</th>
-		<th>Hours</th>
+		<th class="collapsible">Hours</th>
   </tr>
   {% assign sorted = site.games | sort: 'howlongtobeat' %}
   {% for item in sorted %}
@@ -120,7 +120,7 @@ permalink: /playing/
   <tr>
 		<td><a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a></td>
 		<td>{{ item.platform }}</td>
-    <td>{{ item.howlongtobeat }}</td>
+    <td class="collapsible">{{ item.howlongtobeat }}</td>
 	</tr>
   {% endif %}
   {% endfor %}
@@ -132,7 +132,7 @@ permalink: /playing/
   <tr>
     <th>Wishlist</th>
     <th>Platform</th>
-		<th>Hours</th>
+		<th class="collapsible">Hours</th>
   </tr>
   {% assign sorted = site.games | sort: 'howlongtobeat' %}
   {% for item in sorted %}
@@ -140,7 +140,7 @@ permalink: /playing/
   <tr>
 		<td><a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a></td>
 		<td>{{ item.platform }}</td>
-    <td>{{ item.howlongtobeat }}</td>
+    <td class="collapsible">{{ item.howlongtobeat }}</td>
 	</tr>
   {% endif %}
   {% endfor %}
