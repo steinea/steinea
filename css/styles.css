@@ -127,3 +127,12 @@ table {
 th {
   text-align: left;
 }
+
+
+/* Tag Styles */
+
+hr {
+  border: none;
+  background-color: black;
+  height: 1px;
+}
