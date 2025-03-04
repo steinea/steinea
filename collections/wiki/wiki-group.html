@@ -151,7 +151,33 @@ permalink: /wiki/group/
 <br>
 
 
-<h2 id="games-journalism">Games Journalism</h2>
+<h2 id="gamestudios">Game Studios</h2>
+
+{% assign sorted = site.wiki | sort: 'title' %}
+  {% for item in sorted %}
+    {% if item.subcategory contains "game-studios" %}
+      <a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a>
+      <br>
+    {% endif %}
+  {% endfor %}
+
+<br>
+
+
+<h2 id="gamesjobs">Games Jobs</h2>
+
+{% assign sorted = site.wiki | sort: 'title' %}
+  {% for item in sorted %}
+    {% if item.subcategory contains "games-jobs" %}
+      <a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a>
+      <br>
+    {% endif %}
+  {% endfor %}
+
+<br>
+
+
+<h2 id="gamesjournalism">Games Journalism</h2>
 
 {% assign sorted = site.wiki | sort: 'title' %}
   {% for item in sorted %}
