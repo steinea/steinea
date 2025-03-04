@@ -1,7 +1,7 @@
 ---
 layout: post
 category: blog
-subcategory: juvenilia
+subcategory: juvenilia-1
 title: Rhetoric and Ritual
 subtitle: Discourses of Sacrifice and Violence in America
 date: 2013-11-24

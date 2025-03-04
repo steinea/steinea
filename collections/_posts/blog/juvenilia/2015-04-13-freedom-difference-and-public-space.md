@@ -1,7 +1,7 @@
 ---
 layout: post
 category: blog
-subcategory: juvenilia
+subcategory: juvenilia-1
 title: Freedom, Difference, and Public Space
 subtitle: "<em>The Outer Harbour</em>"
 date: 2015-04-13

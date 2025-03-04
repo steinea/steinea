@@ -1,7 +1,7 @@
 ---
 layout: post
 category: blog
-subcategory: juvenilia
+subcategory: juvenilia-1
 title: A Structural Study of Canadian Myth
 date: 2014-10-30
 ---

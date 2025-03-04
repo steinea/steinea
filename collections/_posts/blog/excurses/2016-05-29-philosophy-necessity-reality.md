@@ -1,7 +1,7 @@
 ---
 layout: post
 category: blog
-subcategory: excurses
+subcategory: excurses-1
 title: Philosophy, Necessity, Reality
 date: 2016-05-29
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 category: blog
-subcategory: juvenilia
+subcategory: juvenilia-1
 title: Speaking Double
 subtitle: Indexicals in Role-Play and Story-World Negotiation
 date: 2015-12-01

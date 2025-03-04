@@ -1,7 +1,7 @@
 ---
 layout: post
 category: blog
-subcategory: excurses
+subcategory: excurses-1
 title: When the Lights Go Out
 date: 2015-08-30
 ---

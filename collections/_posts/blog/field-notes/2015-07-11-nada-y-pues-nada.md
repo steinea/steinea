@@ -1,7 +1,7 @@
 ---
 layout: post
 category: blog
-subcategory: field-notes
+subcategory: field-notes-1
 title: Nada y Pues Nada
 date: 2015-07-11
 ---

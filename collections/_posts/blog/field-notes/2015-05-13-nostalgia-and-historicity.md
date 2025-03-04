@@ -1,7 +1,7 @@
 ---
 layout: post
 category: blog
-subcategory: field-notes
+subcategory: field-notes-1
 title: Nostalgia and Historicity
 date: 2015-05-13
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 category: blog
-subcategory: excurses
+subcategory: excurses-1
 title: Beginnings
 date: 2016-01-25
 ---

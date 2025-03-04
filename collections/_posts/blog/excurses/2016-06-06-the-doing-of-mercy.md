@@ -1,7 +1,7 @@
 ---
 layout: post
 category: blog
-subcategory: excurses
+subcategory: excurses-1
 title: The Doing of Mercy
 date: 2016-06-06
 ---

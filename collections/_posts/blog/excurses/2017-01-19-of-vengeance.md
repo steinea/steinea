@@ -1,7 +1,7 @@
 ---
 layout: post
 category: blog
-subcategory: excurses
+subcategory: excurses-1
 title: Of Vengeance
 date: 2017-01-19
 ---

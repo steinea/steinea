@@ -1,7 +1,7 @@
 ---
 layout: post
 category: blog
-subcategory: excurses
+subcategory: excurses-1
 title: The People vs. Frank Castle
 date: 2016-06-01
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 category: blog
-subcategory: juvenilia
+subcategory: juvenilia-1
 title: Absolute Particularity
 subtitle: The Immanent Movement of Grace
 date: 2015-12-03

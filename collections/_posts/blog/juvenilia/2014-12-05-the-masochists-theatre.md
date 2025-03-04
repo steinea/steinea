@@ -1,7 +1,7 @@
 ---
 layout: post
 category: blog
-subcategory: juvenilia
+subcategory: juvenilia-1
 title: The Masochist’s Theatre
 subtitle: Colonialism, Courtly Love, and <em>Wide Sargasso Sea</em>
 date: 2014-12-05

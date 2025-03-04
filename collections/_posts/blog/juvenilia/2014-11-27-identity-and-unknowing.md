@@ -1,7 +1,7 @@
 ---
 layout: post
 category: blog
-subcategory: juvenilia
+subcategory: juvenilia-1
 title: Identity and (Un)knowing
 subtitle: Babel in the Anglo-Saxon Imagination
 date: 2014-11-27

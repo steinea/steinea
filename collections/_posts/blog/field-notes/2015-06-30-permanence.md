@@ -1,7 +1,7 @@
 ---
 layout: post
 category: blog
-subcategory: field-notes
+subcategory: field-notes-1
 title: Permanence
 date: 2015-06-30
 ---

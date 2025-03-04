@@ -1,7 +1,7 @@
 ---
 layout: post
 category: blog
-subcategory: field-notes
+subcategory: field-notes-1
 title: A Matter of Scale, pt. 2
 date: 2015-07-17
 ---

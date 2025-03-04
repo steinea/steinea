@@ -1,7 +1,7 @@
 ---
 layout: post
 category: blog
-subcategory: excurses
+subcategory: excurses-1
 title: The Practice of Etymology
 date: 2016-05-29
 ---

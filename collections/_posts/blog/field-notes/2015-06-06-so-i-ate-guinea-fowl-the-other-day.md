@@ -1,7 +1,7 @@
 ---
 layout: post
 category: blog
-subcategory: field-notes
+subcategory: field-notes-1
 title: So I Ate Guinea Fowl the Other Day
 subtitle: And Then I Wrote This
 date: 2015-06-06

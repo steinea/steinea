@@ -1,7 +1,7 @@
 ---
 layout: post
 category: blog
-subcategory: juvenilia
+subcategory: juvenilia-1
 title: The Wolf and the Whale
 subtitle: A Prophecy of Doom and the Fate of the American Nation
 date: 2014-03-20
