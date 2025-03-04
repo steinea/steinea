@@ -1,7 +1,7 @@
 ---
 layout: wiki
 category: wiki
-subcategory: collectives
+subcategory: game-studios
 title: Gamma Space
 publication: Web
 link: https://www.gammaspace.ca/
