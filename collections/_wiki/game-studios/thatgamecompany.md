@@ -2,8 +2,8 @@
 layout: wiki
 category: wiki
 subcategory: game-studios
-title: thatgamecompany
-publication: thatgamecompany
+title: Thatgamecompany
+publication: Thatgamecompany
 link: https://thatgamecompany.com/careers/
 date: 2023-07-20
 ---
