@@ -150,6 +150,20 @@ permalink: /wiki/group/
 
 <br>
 
+
+<h2 id="games-journalism">Games Journalism</h2>
+
+{% assign sorted = site.wiki | sort: 'title' %}
+  {% for item in sorted %}
+    {% if item.subcategory contains "games-journalism" %}
+      <a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a>
+      <br>
+    {% endif %}
+  {% endfor %}
+
+<br>
+
+
 <h2 id="institutes">Institutes</h2>
 
 {% assign sorted = site.wiki | sort: 'title' %}
@@ -233,6 +247,7 @@ permalink: /wiki/group/
   {% endfor %}
 
 <br>
+
 
 <h2 id="people">People</h2>
 
