@@ -32,7 +32,27 @@ title: Eric Stein
   <p class="explainer">This site is built with the static site generator <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> and the vast majority of content here is organized using Jekyll's native collections functionality. Collections include both <a href="https://jekyllrb.com/docs/posts/" target="_blank" rel="noopener noreferrer">posts</a> and <a href="https://jekyllrb.com/docs/pages/" target="_blank" rel="noopener noreferrer">pages</a>, all of which are written in Markdown and then rendered in HTML by Jekyll. The permalink for my collections is <a href="/collections/">/collections</a>.</p>
   -->
 
-  <p>{% include collections.html %}
+  <p>{% include collections.html %}</p>
+</div>
+
+<br>
+
+
+<div id="journal">
+  <h2>Journal</h2>
+  <hr>
+
+  <p>{% include journal.html %}</p>
+</div>
+
+<br>
+
+
+<div id="now">
+  <h2>Now</h2>
+  <hr>
+
+  <p>{% include now.html %}</p>
 </div>
 
 <br>
@@ -51,20 +71,22 @@ title: Eric Stein
 
 <br>
 
+<!--
 
 <div id="verify">
   <h2>Verify</h2>
   <hr>
 
-  <!--
-  <p class="explainer">As per Molly White, a <a href="https://www.mollywhite.net/verify/" target="_blank" rel="noopener noreferrer">/verify</a> page serves as “the system of record for [an] online identity.” I own and control the domain <a href="/">steinea.ca</a>; I sign my <a href="https://github.com/steinea/steinea" target="_blank" rel="noopener noreferrer">commits</a> with my <a href="/pgp/">PGP</a> key; and I control the identities listed below. If there is an identity that claims to be me that is not on this list, check with one of my verified identities on another platform first before connecting with the unclaimed identity. The permalink for my verify page is <a href="/verify/">/verify</a>.</p>
-  -->
 
-  <p>{% include verify.html %}</p>
+  <p class="explainer">As per Molly White, a <a href="https://www.mollywhite.net/verify/" target="_blank" rel="noopener noreferrer">/verify</a> page serves as “the system of record for [an] online identity.” I own and control the domain <a href="/">steinea.ca</a>; I sign my <a href="https://github.com/steinea/steinea" target="_blank" rel="noopener noreferrer">commits</a> with my <a href="/pgp/">PGP</a> key; and I control the identities listed below. If there is an identity that claims to be me that is not on this list, check with one of my verified identities on another platform first before connecting with the unclaimed identity. The permalink for my verify page is <a href="/verify/">/verify</a>.</p>
+
+
+  <p> include verify.html </p>
 </div>
 
 <br>
 
+-->
 
 <div id="buttons">
   <h2>Button Garden</h2>
