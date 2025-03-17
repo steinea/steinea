@@ -136,3 +136,10 @@ hr {
   background-color: black;
   height: 1px;
 }
+
+
+/* Div Styles */
+
+#now ul {
+  padding-left: 15px;
+}
