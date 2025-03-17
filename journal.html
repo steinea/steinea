@@ -1,0 +1,18 @@
+---
+layout: default
+title: Eric’s HTML Journal
+permalink: /journal/
+---
+
+<br>
+
+{% for post in site.categories.journal %}
+
+  <article>
+    <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+    <p><strong>{{ post.date | date: "%Y-%m-%d" }}</strong></p>
+    <p>{{ post.content }}</p>
+    <br>
+  </article>
+
+{% endfor %}
