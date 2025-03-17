@@ -6,11 +6,11 @@ permalink: /now/
 
 {% for post in site.categories.now limit:1 %}
 
-	<p class="p-name">
-		<strong>{{ post.title }}</strong>
-	</p>
+	<h2>{{ post.title }}</h2>
 
 {% endfor %}
+
+<br>
 
 {% include now.html %}
 
