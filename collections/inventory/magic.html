@@ -15,8 +15,8 @@ permalink: /magic/
   <tr>
     <th>Card</th>
     <th>Set</th>
-    <th>Foil</th>
     <th>Item</th>
+    <th>Foil</th>
     <th>Count</th>
   </tr>
 
@@ -25,8 +25,8 @@ permalink: /magic/
   <tr>
     <td>{{ card.Name }}</td>
     <td>{{ card.Edition }}</td>
-    <td>{{ card.Foil }}</td>
     <td><a href="https://scryfall.com/card/{{ card.Edition }}/{{ card.Collector }}/" target="_blank" rel="noopener noreferrer">{{ card.Collector }}</a></td>
+    <td>{{ card.Foil }}</td>
     <td>× {{ card.Count }}</td>
   </tr>
 
