@@ -1,0 +1,37 @@
+---
+layout: default
+title: Magic
+permalink: /magic/set/
+---
+
+<p><em>Mirrors:  <a href="https://moxfield.com/users/steinea" target="_blank">Moxfield</a></em></p>
+
+<br>
+
+<p><em><a href="/magic/">Alphabetical</a></em> <em><u>Set</u></em></p>
+
+<p>
+<table>
+  <tr>
+    <th>Card</th>
+    <th>Set</th>
+    <th>Foil</th>
+    <th>Item</th>
+    <th>Count</th>
+  </tr>
+
+
+{% assign sorted = site.data.cards | sort: 'Edition' %}
+  {% for item in sorted %}
+
+  <tr>
+    <td>{{ item.Name }}</td>
+    <td>{{ item.Edition }}</td>
+    <td>{{ item.Foil }}</td>
+    <td><a href="https://scryfall.com/card/{{ item.Edition }}/{{ item.Collector }}/" target="_blank" rel="noopener noreferrer">{{ item.Collector }}</a></td>
+    <td>× {{ item.Count }}</td>
+  </tr>
+
+  {% endfor %}
+</table>
+</p>
