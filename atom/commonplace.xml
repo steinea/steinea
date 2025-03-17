@@ -5,7 +5,7 @@ layout: null
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-	<title>Eric Stein's Commonplace Book</title>
+	<title>Eric Stein's Commonplace</title>
 	<link href="https://steinea.ca/atom/commonplace.xml/" rel="self"/>
 	<link href="https://steinea.ca/commonplace/"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
