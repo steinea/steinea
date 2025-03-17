@@ -1,0 +1,57 @@
+---
+layout: default
+title: Watching
+permalink: /watching/television/
+---
+
+<p><em>Mirrors: <a href="" target="_blank" rel="noopener noreferrer"></a></em></p>
+
+<br>
+
+<p><em><a href="/watching/">Films</a></em> <em><u>Television</u></em></p>
+
+<p>
+<table>
+  <tr>
+    <th>Watched</th>
+    <th>Series</th>
+    <th>Episode</th>
+  </tr>
+
+  {% for episode in site.data.episodes %}
+
+  <tr>
+    <td>{{ episode.watched_at | date: '%Y-%m-%d' }}</td>
+    <td><a href="https://www.imdb.com/title/{{ episode.episode_imdb_id }}" target="_blank" rel="noopener noreferrer">{{ episode.title }}</a></td>
+    <td>S{{ episode.season_number }}E{{ episode.episode_number }}</td>
+  </tr>
+
+  {% endfor %}
+</table>
+</p>
+
+
+
+
+<!--
+
+This is the old table using Jekyll posts for each episode. Very labour intensive!
+
+<table>
+  <tr>
+    <th>Watched</th>
+    <th>Title</th>
+    <th>Series</th>
+		<th>Episode</th>
+  </tr>
+  {% assign sorted = site.television | sort: 'date' | reverse %}
+  {% for item in sorted %}
+  <tr>
+    <td>{{ item.watched }}</td>
+    <td><a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a></td>
+    <td>{{ item.series }}</td>
+    <td>S{{ item.season }}E{{ item.episode }}</td>
+	</tr>
+  {% endfor %}
+</table>
+-->

@@ -1,0 +1,58 @@
+---
+layout: default
+title: Watching
+permalink: /watching/
+---
+
+<p><em>Mirrors: <a href="https://letterboxd.com/steinea/films/by/date/" target="_blank" rel="noopener noreferrer">Letterboxd</a></em></p>
+
+<br>
+
+<p><em><u>Films</u></em> <em><a href="/watching/television/">Television</a></em></p>
+
+<p>
+<table class>
+  <tr>
+    <th>Watched</th>
+    <th>Title</th>
+    <th>Rating</th>
+  </tr>
+
+  {% assign sorted = site.data.films | sort: 'WatchedDate' | reverse %}
+    {% for item in sorted %}
+
+  <tr>
+    <td>{{ item.WatchedDate | date: '%Y-%m-%d' }}</td>
+    <td><a href="{{ item.LetterboxdURI }}" target="_blank" rel="noopener noreferrer">{{ item.Name }}</a></td>
+    <td>{{ item.Rating }}</td>
+  </tr>
+
+  {% endfor %}
+</table>
+</p>
+
+
+
+
+<!--
+
+This is the old table using Jekyll posts for each film. Very labour intensive!
+
+<table>
+  <tr>
+    <th>Watched</th>
+    <th>Title</th>
+    <th>Director</th>
+		<th>Rating</th>
+  </tr>
+  {% assign sorted = site.films | sort: 'date' | reverse %}
+  {% for item in sorted %}
+  <tr>
+    <td>{{ item.watched }}</td>
+    <td><a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a></td>
+    <td>{{ item.director }}</td>
+    <td>{{ item.rating }}</td>
+	</tr>
+  {% endfor %}
+</table>
+-->
