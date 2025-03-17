@@ -19,9 +19,6 @@ collections:
   books:
     output: true
     permalink: /:title/
-  films:
-    output: true
-    permalink: /:title/
   games:
     output: true
     permalink: /:title/
@@ -38,9 +35,6 @@ collections:
     output: true
     permalink: /:title/
   surnames:
-    output: true
-    permalink: /:title/
-  television:
     output: true
     permalink: /:title/
   warhammer:
