@@ -25,6 +25,9 @@ collections:
   games:
     output: true
     permalink: /:title/
+  gunpla:
+    output: true
+    permalink: /:title/
   lego:
     output: true
     permalink: /:title/
@@ -38,6 +41,9 @@ collections:
     output: true
     permalink: /:title/
   television:
+    output: true
+    permalink: /:title/
+  warhammer:
     output: true
     permalink: /:title/
   wiki:
