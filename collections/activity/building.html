@@ -4,26 +4,80 @@ title: Building
 permalink: /building/
 ---
 
-<table>
-  <tr>
-    <th>Set</th>
-    <th>Series</th>
-		<th>Item</th>
-    <th>Pieces</th>
-    <th>Age</th>
-    <th>Status</th>
-  </tr>
-  {% assign sorted = site.lego | sort: 'title' %}
-  {% for item in sorted %}
-  {% if item.subcategory contains "built" or item.subcategory contains "backlog" or item.subcategory contains "wishlist" %}
-  <tr>
-    <td><a href="{{ item.url }}">{{ item.title }}</a></td>
-    <td>{{ item.series }}</td>
-    <td><a href="{{ item.link }}" title="{{ item.item }}">{{ item.item }}</a></td>
-    <td>{{ item.pieces }}</td>
-    <td>{{ item.age }}</td>
-    <td>{{ item.subcategory }}</td>
-	</tr>
-  {% endif %}
-  {% endfor %}
-</table>
+<p>
+  <table>
+    <tr>
+      <th>Lego</th>
+      <th>Series</th>
+  		<th>Item</th>
+      <th>Pieces</th>
+      <th>Status</th>
+    </tr>
+    {% assign sorted = site.lego | sort: 'title' %}
+    {% for item in sorted %}
+    {% if item.subcategory contains "built" or item.subcategory contains "backlog" or item.subcategory contains "wishlist" %}
+    <tr>
+      <td><a href="{{ item.url }}">{{ item.title }}</a></td>
+      <td>{{ item.series }}</td>
+      <td><a href="{{ item.link }}" title="{{ item.item }}">{{ item.item }}</a></td>
+      <td>{{ item.pieces }}</td>
+      <td>{{ item.subcategory }}</td>
+  	</tr>
+    {% endif %}
+    {% endfor %}
+  </table>
+</p>
+
+<br>
+
+<p>
+  <table>
+    <tr>
+      <th>Gunpla</th>
+      <th>Series</th>
+  		<th>Item</th>
+      <th>Scale</th>
+      <th>Grade</th>
+      <th>Status</th>
+    </tr>
+    {% assign sorted = site.gunpla | sort: 'title' %}
+    {% for item in sorted %}
+    {% if item.subcategory contains "built" or item.subcategory contains "backlog" or item.subcategory contains "wishlist" %}
+    <tr>
+      <td><a href="{{ item.url }}">{{ item.title }}</a></td>
+      <td>{{ item.series }}</td>
+      <td><a href="{{ item.link }}" title="{{ item.item }}">{{ item.item }}</a></td>
+      <td>{{ item.scale }}</td>
+      <td>{{ item.grade }}</td>
+      <td>{{ item.subcategory }}</td>
+  	</tr>
+    {% endif %}
+    {% endfor %}
+  </table>
+</p>
+
+<br>
+
+<p>
+  <table>
+    <tr>
+      <th>Warhammer</th>
+      <th>Faction</th>
+      <th>Item</th>
+  		<th>Components</th>
+      <th>Status</th>
+    </tr>
+    {% assign sorted = site.warhammer | sort: 'title' %}
+    {% for item in sorted %}
+    {% if item.subcategory contains "built" or item.subcategory contains "backlog" or item.subcategory contains "wishlist" %}
+    <tr>
+      <td><a href="{{ item.url }}">{{ item.title }}</a></td>
+      <td>{{ item.faction }}</td>
+      <td><a href="{{ item.link }}" title="{{ item.item }}">{{ item.item }}</a></td>
+      <td>{{ item.components }}</td>
+      <td>{{ item.subcategory }}</td>
+  	</tr>
+    {% endif %}
+    {% endfor %}
+  </table>
+</p>
