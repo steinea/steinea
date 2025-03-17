@@ -1,0 +1,15 @@
+---
+layout: default
+title: Gunpla
+permalink: /gunpla/wishlist/
+---
+
+<p><em><em><a href="/gunpla/">Built</a></em> <em><a href="/gunpla/backlog/">Backlog</a></em> <u>Wishlist</u></em></p></p>
+
+{% assign sorted = site.gunpla | sort: 'cost' %}
+	{% for item in sorted %}
+			{% if item.subcategory contains "wishlist" %}
+					${{ item.cost }} <a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a>
+				<br>
+			{% endif %}
+	{% endfor %}
