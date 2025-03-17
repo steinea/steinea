@@ -1,0 +1,15 @@
+---
+layout: default
+title: Warhammer
+permalink: /warhammer/
+---
+
+<p><em><u>Built</u></em> <em><a href="/warhammer/backlog/">Backlog</a></em> <em><a href="/warhammer/wishlist/">Wishlist</a></em></p>
+
+{% assign sorted = site.warhammer | sort: 'date' | reverse %}
+	{% for item in sorted %}
+			{% if item.subcategory contains "built" %}
+				{{ item.date | date: "%Y-%m-%d" }} <a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a>
+				<br>
+			{% endif %}
+	{% endfor %}
