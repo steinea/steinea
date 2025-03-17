@@ -143,3 +143,10 @@ hr {
 #now ul {
   padding-left: 15px;
 }
+
+.scrollable {
+  height: 150px;
+  overflow-y: scroll;
+  scrollbar-color: #fadadd;
+  scrollbar-width: 10px;
+}
