@@ -1,0 +1,29 @@
+---
+layout: default
+title: Playing
+permalink: /playing/wishlist/
+---
+
+<p><em>Mirrors:  <a href="https://www.backloggd.com/u/steinea/" target="_blank" rel="me noopener noreferrer">Backloggd</a>, <a href="https://www.exophase.com/user/steinea/" target="_blank" rel="me noopener noreferrer">Exophase</a>, <a href="https://howlongtobeat.com/user/steinea" target="_blank">HowLongToBeat</a></em></p>
+
+<br>
+
+<p><em><a href="/playing/">Playing</a></em> <em><a href="/playing/most/">Most Played</a></em> <em><a href="/playing/complete/">Complete</a></em> <em><a href="/playing/retired/">Retired</a></em> <em><a href="/playing/backlog/">Backlog</a></em> <em><u>Wishlist</u></em></p>
+
+<p><table>
+  <tr>
+    <th>Title</th>
+    <th>Platform</th>
+		<th class="collapsible">Hours</th>
+  </tr>
+  {% assign sorted = site.games | sort: 'howlongtobeat' %}
+  {% for item in sorted %}
+  {% if item.progress contains "wishlist" %}
+  <tr>
+		<td><a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a></td>
+		<td>{{ item.platform }}</td>
+    <td class="collapsible">{{ item.howlongtobeat }}</td>
+	</tr>
+  {% endif %}
+  {% endfor %}
+</table></p>

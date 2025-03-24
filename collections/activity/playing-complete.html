@@ -1,14 +1,14 @@
 ---
 layout: default
 title: Playing
-permalink: /playing/
+permalink: /playing/complete/
 ---
 
 <p><em>Mirrors:  <a href="https://www.backloggd.com/u/steinea/" target="_blank" rel="me noopener noreferrer">Backloggd</a>, <a href="https://www.exophase.com/user/steinea/" target="_blank" rel="me noopener noreferrer">Exophase</a>, <a href="https://howlongtobeat.com/user/steinea" target="_blank">HowLongToBeat</a></em></p>
 
 <br>
 
-<p><em><u>Playing</u></em> <em><a href="/playing/most/">Most Played</a></em> <em><a href="/playing/complete/">Complete</a></em> <em><a href="/playing/retired/">Retired</a></em> <em><a href="/playing/backlog/">Backlog</a></em> <em><a href="/playing/wishlist/">Wishlist</a></em></p>
+<p><em><a href="/playing/">Playing</a></em> <em><a href="/playing/most/">Most Played</a></em> <em><u>Complete</u></em> <em><a href="/playing/retired/">Retired</a></em> <em><a href="/playing/backlog/">Backlog</a></em> <em><a href="/playing/wishlist/">Wishlist</a></em></p>
 
 <p><table>
   <tr>
@@ -16,19 +16,17 @@ permalink: /playing/
     <th class="collapsible">Platform</th>
 		<th class="collapsible">Hours</th>
 		<th class="collapsible">Trophies</th>
-    <th>Percent</th>
-		<th class="collapsible">Date</th>
+		<th>Date</th>
   </tr>
   {% assign sorted = site.games | sort: 'date' | reverse %}
   {% for item in sorted %}
-  {% if item.progress contains "now" %}
+  {% if item.progress contains "complete" %}
   <tr>
 		<td><a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a></td>
 		<td class="collapsible">{{ item.platform }}</td>
     <td class="collapsible">{{ item.durationHours }}</td>
 		<td class="collapsible">{{ item.trophies }}</td>
-    <td>{{ item.percent }}</td>
-    <td class="collapsible">{{ item.date | date: '%Y-%m-%d' }}</td>
+    <td>{{ item.date | date: '%Y-%m-%d' }}</td>
 	</tr>
   {% endif %}
   {% endfor %}
