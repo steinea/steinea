@@ -30,29 +30,3 @@ permalink: /watching/
   {% endfor %}
 </table>
 </p>
-
-
-
-
-<!--
-
-This is the old table using Jekyll posts for each film. Very labour intensive!
-
-<table>
-  <tr>
-    <th>Watched</th>
-    <th>Title</th>
-    <th>Director</th>
-		<th>Rating</th>
-  </tr>
-  {% assign sorted = site.films | sort: 'date' | reverse %}
-  {% for item in sorted %}
-  <tr>
-    <td>{{ item.watched }}</td>
-    <td><a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a></td>
-    <td>{{ item.director }}</td>
-    <td>{{ item.rating }}</td>
-	</tr>
-  {% endfor %}
-</table>
--->
