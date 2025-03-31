@@ -2,7 +2,7 @@
 layout: wiki
 category: wiki
 subcategory: video-games
-title: asses.masses
+title: Asses Masses
 publication: assesmasses.work
 link: https://www.assesmasses.work/
 date: 2024-07-29
