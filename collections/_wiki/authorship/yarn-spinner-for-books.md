@@ -2,10 +2,10 @@
 layout: wiki
 category: wiki
 subcategory: authorship
-title:
-publication:
-link:
-date: 1999-01-01
+title: Yarn Spinner for Books
+publication:  Yarn Spinner for Books
+link: https://books.yarnspinner.dev/
+date: 2024-11-16
 ---
 
 "Welcome to Yarn Spinner for Books!
