@@ -1,7 +1,7 @@
 ---
 layout: wiki
 category: wiki
-subcategory: tabletop-games
+subcategory: magic-the-gathering
 title: Army of Goats
 publication: Tapped Out
 link: https://tappedout.net/mtg-decks/army-of-goats-1/

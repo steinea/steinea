@@ -1,7 +1,7 @@
 ---
 layout: wiki
 category: wiki
-subcategory: tabletop-games
+subcategory: magic-the-gathering
 title: The Hare Apparent Project
 publication: Reddit
 link: https://www.reddit.com/r/EDH/comments/1gyyfvp/building_every_hare_apparent_deck_possible/
