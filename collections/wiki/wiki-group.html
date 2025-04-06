@@ -264,6 +264,18 @@ permalink: /wiki/group/
 
 <br>
 
+<h2 id="military">Military</h2>
+
+{% assign sorted = site.wiki | sort: 'title' %}
+  {% for item in sorted %}
+    {% if item.subcategory contains "military" %}
+      <a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a>
+      <br>
+    {% endif %}
+  {% endfor %}
+
+<br>
+
 <h2 id="mtg">Magic: The Gathering</h2>
 
 {% assign sorted = site.wiki | sort: 'title' %}
@@ -318,6 +330,18 @@ permalink: /wiki/group/
 {% assign sorted = site.wiki | sort: 'title' %}
   {% for item in sorted %}
     {% if item.subcategory contains "publishing" %}
+      <a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a>
+      <br>
+    {% endif %}
+  {% endfor %}
+
+<br>
+
+<h2 id="religion">Religion</h2>
+
+{% assign sorted = site.wiki | sort: 'title' %}
+  {% for item in sorted %}
+    {% if item.subcategory contains "religion" %}
       <a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a>
       <br>
     {% endif %}
