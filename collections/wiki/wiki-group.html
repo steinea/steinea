@@ -191,6 +191,17 @@ permalink: /wiki/group/
 
 <br>
 
+<h2 id="Industry">Industry</h2>
+
+{% assign sorted = site.wiki | sort: 'title' %}
+  {% for item in sorted %}
+    {% if item.subcategory contains "industry" %}
+      <a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a>
+      <br>
+    {% endif %}
+  {% endfor %}
+
+<br>
 
 <h2 id="institutes">Institutes</h2>
 
