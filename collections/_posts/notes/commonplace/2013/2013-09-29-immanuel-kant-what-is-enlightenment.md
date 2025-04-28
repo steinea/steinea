@@ -2,7 +2,7 @@
 layout: entry
 category: commonplace
 author: Immanuel Kant
-title: What Is Enlightenment>
+title: "What Is Enlightenment?"
 publication: Modern History Sourcebook
 link: https://sourcebooks.fordham.edu/mod/modsbook.asp
 date: 2013-09-29
